@@ -104,4 +104,4 @@ end.
 ```
 Ở ví dụ trên, biến bị ép `c` có kiểu ký tự. Khi ép, biến `i` sẽ theo bảng mã [ASCII](http://www.asciitable.com/) để quy đổi (ví dụ, ký tự `a` có mã `97` trong bảng mã ASCII).
 
-![](res/img/asciifull.gif)
+![Bảng mã ASCII](res/img/ascii-chars-landscape.jpg)
