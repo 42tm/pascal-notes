@@ -1,9 +1,9 @@
 # Sổ tay Pascal
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
 ## Giới thiệu
-Quyển sách "Sổ tay Pascal" này được biên tập bởi nhóm [42 utils](https://github.com/42tm), nội dung được viết bởi những lập trình viên trẻ đầy tâm huyết của nhóm. Tất cả nội dung của văn bản được phát hành dưới giấy phép [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/). Tên những người đóng góp được ghi trong phần công trạng ở cuối sách. Những hình ảnh được sử dụng có thể là bản quyền của chủ sở hữu trừ khi được quy định cụ thể.
+Quyển sách "Sổ tay Pascal" này được biên tập bởi nhóm [42 utils](https://github.com/42tm), nội dung được viết bởi những lập trình viên trẻ đầy tâm huyết của nhóm. Tên những người đóng góp được ghi trong phần công trạng ở cuối sách. Những hình ảnh được sử dụng có thể là bản quyền của chủ sở hữu trừ khi được quy định cụ thể.
 
 Lưu ý: Pascal được nói tới trong là Pascal phiên bản thường, không phải Object Pascal (Pascal hướng đối tượng).
 
@@ -15,3 +15,5 @@ Tuy đã được xem xét kĩ lưỡng nhưng cuốn sách vẫn có thể có 
 ## [Chapter 2](/chapter2.md)
 
 ## [Credit](/credit.md)
+## Giấy phép
+Tất cả nội dung của văn bản được phát hành dưới giấy phép [Creative Commons BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
