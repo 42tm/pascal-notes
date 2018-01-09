@@ -12,6 +12,7 @@ Lưu ý: Pascal được nói tới trong là Pascal phiên bản thường, kh�
 Tuy đã được xem xét kĩ lưỡng nhưng cuốn sách vẫn có thể có một số lỗi, mong bạn đọc chỉ ra và đóng góp bằng cách gửi thư điện tử tới fourtytwotm@gmail.com
 ### [Chương 1](/chapter1.md)
 ### [Chương 2](/chapter2.md)
+### [Chương 4](/chapter4.md)
 ### [Ghi chú thêm](/notes.md)
 ## [Công trạng](/credit.md)
 ## Giấy phép
