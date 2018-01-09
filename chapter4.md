@@ -96,7 +96,7 @@ begin
 end.
 ```
 
-Ở phía trên, ta có thể thấy `ProcA` và `ProcB` đều trả về kết quả như nhau. Khi chạy ProcA, trình biên dịch sẽ cảnh báo bạn rằng thông số bạn nhập vào (`c`) chưa gán giá trị trước đó. Tuy nhiên hàm ProcB cho trình biên dịch biết thêm thông tin rằng thông số nhập vào không cần phải gán giá trị trước.
+Ở phía trên, ta có thể thấy `ProcA` và `ProcB` đều trả về kết quả như nhau. Khi chạy ProcA, trình biên dịch sẽ cảnh báo bạn rằng thông số bạn nhập vào ( biến số `c` ) chưa gán giá trị trước đó. Tuy nhiên hàm ProcB cho trình biên dịch biết thêm thông tin rằng thông số nhập vào không cần phải gán giá trị trước.
 
 ### 4.5 Overloading
 
@@ -133,8 +133,11 @@ end.
 ### 4.6 Chương trình con lồng nhau
 Khi khai báo, bạn có thể khai báo hàm đầu chương trình rồi viết luôn thân hàm, hoặc khai báo lại ở dưới. Nếu như bạn khai báo trước, bạn có thể lồng ghép các hàm/thủ tục với nhau mà không gặp lỗi biên dịch.
 
+```pascal
+```
+
 ### 4.7 Hàm gọi chính nó (Đệ quy)
-Nghe qua, bạn có thể nghĩ tới việc lặp lại giống như `for .. to do` hay `while .. do` hoặc `repeat .. until`. Nhưng khi lặp lại, bạn cần nhập nhiều tham số (> 10) và chúng luôn thay đổi và phụ thuộc nhiều, khi đó bạn sẽ sử dụng đệ quy.
+Nghe qua, bạn có thể nghĩ tới việc lặp lại giống như `for .. to  .. do` hay `while .. do` hoặc `repeat .. until`. Nhưng khi lặp lại, bạn cần nhập nhiều tham số (> 10) và chúng luôn thay đổi và phụ thuộc nhiều, khi đó bạn sẽ sử dụng đệ quy.
 
 ```pascal
 program DqDemo;
@@ -144,7 +147,7 @@ begin
     if i < 0 exit;
     else if i = 0 Fibb := 0;
     else if i = 1 Fibb := 1;
-    else if i > 2 Fibb := Fibb(i - 1) + Fibb(i - 2);
+    else if i > 1 Fibb := Fibb(i - 1) + Fibb(i - 2);
 end;
 
 var
