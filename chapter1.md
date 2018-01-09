@@ -6,11 +6,12 @@
 |---|---|---|
 | [Free Pascal](https://www.freepascal.org/) | `fpc` | Tiếp tục phát triển |
 |[GNU Pascal](http://www.gnu-pascal.de/) | `gpc` | Ngừng phát triển (v20060325 - 2006) |
-| [Turbo Pascal]() (Borland Pascal) | `tpc` | Ngừng phát triển (v7.1 - 1997) |
+| Turbo Pascal (Borland Pascal) | `tpc` | Ngừng phát triển (v7.1 - 1997) |
 
 ### 1.1: Hello World
 
 Để viết chương trình pascal đơn giản in ra “Hello, World” trên màn hình, hãy sử dụng một chương trình soạn thảo văn bản thuần để tạo ra một tệp mới (ví dụ `hello.pas` – đuôi tệp bắt buộc phải là `.pas`) có chứa mã nguồn sau:
+
 #### hello.pas
 ```pascal
 program HelloWorld;
@@ -49,7 +50,7 @@ Trong chương trình Pascal, mỗi dòng lệnh cần được kết thúc bằ
 
 Ngoài sử dụng bộ sửa đổi có sẵn trong Free Pascal hay Turbo Pascal, bạn có thể sử dụng trình soạn thảo cơ bản notepad trên Windows, vim hay nano trong Linux. Hơn nữa bạn có thể sử dụng trình soạn thảo đa nền tảng là Visual Studio Code hoặc Sublime Text.
 
-Trình soạn thảo bắt buộc phải tạo ra tệp văn bản thuần, không phải dạng RTF hay bất cứ dạng nào khác.
+Trình soạn thảo bắt buộc phải tạo ra tệp văn bản thuần, không phải dạng RTF, DOC hay bất cứ dạng nào khác.
 
 ### 1.3 Biên dịch và chạy chương trình
 
