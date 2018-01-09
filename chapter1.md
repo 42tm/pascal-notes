@@ -2,7 +2,7 @@
 
 ## Chương 1: Bắt đầu với Pascal
 
-|Một số bộ biên dịch phổ biến| Tên thực thi | Trạng thái |
+|Một số trình biên dịch phổ biến| Tên thực thi | Trạng thái |
 |---|---|---|
 | [Free Pascal](https://www.freepascal.org/) | `fpc` | Tiếp tục phát triển |
 |[GNU Pascal](http://www.gnu-pascal.de/) | `gpc` | Ngừng phát triển (v20060325 - 2006) |
@@ -25,11 +25,11 @@ end.
 ```pascal
 program HelloWorld;
 ```
-Dòng này giúp bộ biên dịch biết rằng tên chương trình của bạn là `HelloWorld`. Thông thường, nếu bạn chỉ viết một tệp thì dòng nay có vẻ không cần thiết nhưng khi bạn chia mã nguồn thành các tệp nhỏ thì bạn bắt buộc phải viết dòng này để phân biệt.
+Dòng này giúp trình biên dịch biết rằng tên chương trình của bạn là `HelloWorld`. Thông thường, nếu bạn chỉ viết một tệp thì dòng nay có vẻ không cần thiết nhưng khi bạn chia mã nguồn thành các tệp nhỏ thì bạn bắt buộc phải viết dòng này để phân biệt.
 ```pascal
 uses crt;
 ```
-Dòng này thông báo cho bộ biên dịch để bao gồm các nôi dung của thư viện tiêu chuẩn `crt` trong chương trình. Đầu chương trình thường là tên thư viện có sẵn hoặc tên tệp là thư viện chứa các khai báo hàm, macro và kiểu dữ liệu, và bạn phải bao gồm các thư viện đâu chương trình trước khi bạn sử dụng chúng. Dòng này bao gồm thư viện `crt` nên bạn có thể gọi hàm `writeln()` sau đó.
+Dòng này thông báo cho trình biên dịch để bao gồm các nôi dung của thư viện tiêu chuẩn `crt` trong chương trình. Đầu chương trình thường là tên thư viện có sẵn hoặc tên tệp là thư viện chứa các khai báo hàm, macro và kiểu dữ liệu, và bạn phải bao gồm các thư viện đâu chương trình trước khi bạn sử dụng chúng. Dòng này bao gồm thư viện `crt` nên bạn có thể gọi hàm `writeln()` sau đó.
 ```pascal
 begin
     ...
@@ -63,7 +63,7 @@ Free Pascal là trình biên dịch Pascal phổ biến. Để biên dịch, b�
 ```
 fpc hello.pas
 ```
-Nếu không có lỗi nào được phát hiện trong mã nguồn (`hello.pas`), bộ biên dịch sẽ tạo ra một tệp nhị phân, tên của nó sẽ được lấy theo tên mã nguồn (`hello`). Đây là tệp thực thi cuối cùng.
+Nếu không có lỗi nào được phát hiện trong mã nguồn (`hello.pas`), trình biên dịch sẽ tạo ra một tệp nhị phân, tên của nó sẽ được lấy theo tên mã nguồn (`hello`). Đây là tệp thực thi cuối cùng.
 
 ### 1.4 Chạy chương trình
 

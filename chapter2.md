@@ -64,7 +64,7 @@ begin
 end.
 ```
 
-> *Lưu ý*: Kiểu dữ liệu `String` không hỗ trợ gõ tiếng Việt. Nếu bạn cố viết trong chương trình, khí thực hiện, chương trình sẽ in ra ký tự lỗi.
+> *Lưu ý*: Kiểu dữ liệu `String` không hỗ trợ gõ tiếng Việt. Nếu bạn cố viết trong chương trình, khi thực hiện, chương trình sẽ in ra ký tự lỗi.
 
 ### 2.3 Hằng
 
