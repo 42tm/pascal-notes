@@ -12,4 +12,5 @@
 - Nguyễn Tuấn Dũng (@dungwinux)
 - Nguyễn Hoàng Dương (@novaglow)
 
-### Chapter 3:
+### Chapter 4:
+- Nguyễn Tuấn Dũng (@dungwinux)
