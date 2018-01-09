@@ -130,13 +130,7 @@ begin
 end.
 ```
 
-### 4.6 Chương trình con lồng nhau
-Khi khai báo, bạn có thể khai báo hàm đầu chương trình rồi viết luôn thân hàm, hoặc khai báo lại ở dưới. Nếu như bạn khai báo trước, bạn có thể lồng ghép các hàm/thủ tục với nhau mà không gặp lỗi biên dịch.
-
-```pascal
-```
-
-### 4.7 Hàm gọi chính nó (Đệ quy)
+### 4.6 Hàm gọi chính nó (Đệ quy)
 Nghe qua, bạn có thể nghĩ tới việc lặp lại giống như `for .. to  .. do` hay `while .. do` hoặc `repeat .. until`. Nhưng khi lặp lại, bạn cần nhập nhiều tham số (> 10) và chúng luôn thay đổi và phụ thuộc nhiều, khi đó bạn sẽ sử dụng đệ quy.
 
 ```pascal
