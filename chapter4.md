@@ -115,7 +115,7 @@ begin
   writeln('Messenge from program: ', s);  
 end;
 
-procedure Msg(user : string; s : string);  
+procedure Msg(usr : string; s : string);  
 begin
   writeln('Messenge from ', usr, ': ', s);  
 end;
@@ -130,11 +130,13 @@ begin
 end.
 ```
 
+Khi biên dịch, trình biên dịch sẽ tìm hàm/thủ tục phù hợp với dữ liệu nhập vào. Chẳng hạn `12` trong `Msg(12);` tương ứng với `Msg(integer);`
+
 ### 4.6 Hàm gọi chính nó (Đệ quy)
 Nghe qua, bạn có thể nghĩ tới việc lặp lại giống như `for .. to  .. do` hay `while .. do` hoặc `repeat .. until`. Nhưng khi lặp lại, bạn cần nhập nhiều tham số (> 10) và chúng luôn thay đổi và phụ thuộc nhiều, khi đó bạn sẽ sử dụng đệ quy.
 
 ```pascal
-program DqDemo;
+program RecursionDemo;
 
 function Fibb(i: integer): integer;
 begin
@@ -154,4 +156,4 @@ begin
 end.
 ```
 
-Để biết thêm đệ quy, vui lòng tìm hiểu thêm ở trên mạng.
+> Để biết thêm đệ quy, vui lòng tìm hiểu thêm ở trên mạng.
