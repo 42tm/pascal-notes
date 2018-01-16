@@ -13,7 +13,7 @@ Với những điều nói trên, xin mời bạn bắt đầu đọc quyển s�
 
 Hy vọng quyển sách _Sổ tay Pascal_ này là một quyển sách hữu ích cho bạn đọc. Chúc các bạn thành công.
 
-<a href="chapter1.md" style="float: right">Chương 1 >></a>
+[Chương 1 >>](chapter1.md)
 <br/>
 
 - - -
