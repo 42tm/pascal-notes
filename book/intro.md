@@ -7,15 +7,15 @@ Có rất nhiều ngôn ngữ lập trình để chọn làm ngôn ngữ vỡ l�
 
 Pascal tuy không đứng trong top đầu các ngôn ngữ được sử dụng trong công nghiệp lập trình, nhưng với việc giảng dạy, Pascal là một sự khởi đầu tốt.
 
-Ngôn ngữ Pascal sử dụng các từ khóa nhiều hơn các ký tự, ví dụ như `Begin`, `End`, `If`, `then`, `else`, `Program`. Đọc một chương trình được viết bằng ngôn ngữ Pascal sẽ giống như đọc một bài văn hơn so với các ngôn ngữ khác. Các chương trình được bắt đầu với từ khóa `Begin` và kết thúc với từ khóa `End` rất rõ ràng. Và người sử dụng ngôn ngữ Pascal không cần phải lo việc các từ khóa có viết hoa hay không vì Pascal không phân biệt chữ hoa và chữ thường đối với các câu lệnh và từ khóa của nó.
+Ngôn ngữ Pascal sử dụng các từ khóa nhiều hơn các ký tự, ví dụ như `Begin`, `End`, `If`, `then`, `else`, `Program`. Đọc một chương trình được viết bằng ngôn ngữ Pascal sẽ giống như đọc một bài văn hơn so với các chương trình được viết bằng các ngôn ngữ khác. Các chương trình được bắt đầu với từ khóa `Begin` và kết thúc với từ khóa `End` rất rõ ràng. Và người sử dụng ngôn ngữ Pascal không cần phải lo việc các từ khóa có viết hoa hay không vì Pascal không phân biệt chữ hoa và chữ thường đối với các câu lệnh và từ khóa của nó.
 
 Với những điều nói trên, xin mời bạn bắt đầu đọc quyển sách.
 
 Hy vọng quyển sách _Sổ tay Pascal_ này là một quyển sách hữu ích cho bạn đọc. Chúc các bạn thành công.
 
-<a href="chapter1.md" style="float: right">Chương 1 >></a>
+[Chương 1 >>](chapter1.md)
 <br/>
 
 - - -
 Đã đóng góp cho trang này: Nguyễn Hoàng Dương ([@NOVAglow](https:/github.com/NOVAglow)).  
-Lần cuối được chỉnh sửa bởi Nguyễn Hoàng Dương ([@NOVAglow](https:/github.com/NOVAglow)), 16 tháng 1 năm 2018.
+Lần cuối được chỉnh sửa bởi Nguyễn Hoàng Dương ([@NOVAglow](https:/github.com/NOVAglow)), ngày 16 tháng 1 năm 2018.
