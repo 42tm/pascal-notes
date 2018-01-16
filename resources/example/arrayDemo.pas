@@ -9,6 +9,6 @@ Begin
         // 4 2 3 4 5
 
     For i:=0 To 5 Do
-        write( a[i]," " );
+        write( a[i], ' ' );
         // In ra 4 2 3 4 5
 End.
