@@ -5,8 +5,8 @@
 |Một số trình biên dịch phổ biến| Tên thực thi | Trạng thái |
 |---|---|---|
 | [Free Pascal](https://www.freepascal.org/) | `fpc` | Tiếp tục phát triển |
-|[GNU Pascal](http://www.gnu-pascal.de/) | `gpc` | Ngừng phát triển (v20060325 - 2006) |
-| Turbo Pascal (Borland Pascal) | `tpc` | Ngừng phát triển (v7.1 - 1997) |
+|[GNU Pascal](http://www.gnu-pascal.de/) | `gpc` | Ngừng phát triển (2006) |
+| Turbo Pascal (Borland Pascal) | `tpc` | Ngừng phát triển (1997) |
 
 ### 1.1: Hello World
 
