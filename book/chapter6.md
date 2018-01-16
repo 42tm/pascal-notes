@@ -24,7 +24,7 @@ Begin
         // 4 2 3 4 5 0
         
     For i:=0 To 5 Do
-        write( a[i]," " );
+        write( a[i],' ' );
         // In ra 4 2 3 4 5 0
 End.
 ```
@@ -116,7 +116,7 @@ begin
         readln( a[i] );
         
     For i:=n Downto 0 Do
-        write( a[i]," " );
+        write( a[i],' ' );
 end.
 ```
 
@@ -131,4 +131,4 @@ Thì kết quả của chương trình là:
 5 4 3 2 10
 ```
 
-Thế nó khác gì so với mảng tĩnh ? Khi lập trình với input số nguyên, nhiều người sẽ lập tức nghĩ tới số rất to và khởi tạo mảng có độ dài rất lớn (10000 chẳng hạn). Tuy nhiên, nhỡ người dùng lại nhập số rất nhỏ (1) ? Khi đó, chương trình vẫn sẽ khởi tạo 10000 vị trí trong bộ nhớ và như thế chương trình sẽ dùng thừa rất nhiều bộ nhớ. , chúng ta phải sử dụng mảng động.
+Thế nó khác gì so với mảng tĩnh ? Khi lập trình với input số nguyên, nhiều người sẽ lập tức nghĩ tới số rất to và khởi tạo mảng có độ dài rất lớn (10000 chẳng hạn). Tuy nhiên, nhỡ người dùng lại nhập số rất nhỏ (1) ? Khi đó, chương trình vẫn sẽ khởi tạo 10000 vị trí trong bộ nhớ và như thế chương trình sẽ dùng thừa rất nhiều bộ nhớ. Vì thế, chúng ta phải sử dụng mảng động.
