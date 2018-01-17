@@ -12,17 +12,17 @@ Ngôn ngữ Pascal sử dụng các từ khóa nhiều hơn các ký tự, ví d
 - - -
 ## **MỤC LỤC**
 
-[Chương 1 >>](chapter1.md)
+[Chương 1 >>](chapter01.md)
 
-[Chương 2 >>](chapter2.md)
+[Chương 2 >>](chapter02.md)
 
-<!-- [Chương 3 >>](chapter3.md) -->
+<!-- [Chương 3 >>](chapter03.md) -->
 
-[Chương 4 >>](chapter4.md)
+[Chương 4 >>](chapter04.md)
 
-<!-- [Chương 5 >>](chapter5.md) -->
+<!-- [Chương 5 >>](chapter05.md) -->
 
-[Chương 6 >>](chapter6.md)
+[Chương 6 >>](chapter06.md)
 <br/>
 
 - - -
