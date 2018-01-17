@@ -7,17 +7,17 @@ Trong phần này, bạn sẽ biết được:
 - Cách biên dịch một tệp mã nguồn Pascal, và cách chạy chương trình Pascal từ giao diện dòng lệnh
 - Cách viết ghi chú trong ngôn ngữ Pascal
 ## Mục lục
-1. Chương trình máy tính
-2. Trình biên dịch
-3. Trình biên tập mã và môi trường phát triển tích hợp
-4. Viết chương trình Pascal đầu tiên
-    - Phân tích mã nguồn của chương trình Hello World
-5. Biên dịch chương trình Pascal
-    - Trên hệ điều hành Windows
-    - Trên một bản phân phối của GNU/Linux
-6. Chạy chương trình Pascal
-7. Ghi chú trong chương trình
-8. Chú giải
+1. [Chương trình máy tính](#ch%C6%B0%C6%A1ng-tr%C3%ACnh-m%C3%A1y-t%C3%ADnh)
+2. [Trình biên dịch](#tr%C3%ACnh-bi%C3%AAn-d%E1%BB%8Bch)
+3. [Trình biên tập mã và môi trường phát triển tích hợp](#tr%C3%ACnh-bi%C3%AAn-t%E1%BA%ADp-m%C3%A3-v%C3%A0-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-ph%C3%A1t-tri%E1%BB%83n-t%C3%ADch-h%E1%BB%A3p)
+4. [Viết chương trình Pascal đầu tiên](#vi%E1%BA%BFt-ch%C6%B0%C6%A1ng-tr%C3%ACnh-pascal-%C4%91%E1%BA%A7u-ti%C3%AAn)
+    - [Phân tích mã nguồn của chương trình Hello World](#ph%C3%A2n-t%C3%ADch-m%C3%A3-ngu%E1%BB%93n-c%E1%BB%A7a-ch%C6%B0%C6%A1ng-tr%C3%ACnh-hello-world)
+5. [Biên dịch chương trình Pascal](#bi%C3%AAn-d%E1%BB%8Bch-ch%C6%B0%C6%A1ng-tr%C3%ACnh-pascal)
+    - [Trên hệ điều hành Windows](#tr%C3%AAn-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-windows)
+    - [Trên một bản phân phối của GNU/Linux](#tr%C3%AAn-m%E1%BB%99t-b%E1%BA%A3n-ph%C3%A2n-ph%E1%BB%91i-c%E1%BB%A7a-gnulinux)
+6. [Chạy chương trình Pascal](#ch%E1%BA%A1y-ch%C6%B0%C6%A1ng-tr%C3%ACnh-pascal)
+7. [Ghi chú trong chương trình](#ghi-ch%C3%BA-trong-ch%C6%B0%C6%A1ng-tr%C3%ACnh)
+8. [Chú giải](#ch%C3%BA-gi%E1%BA%A3i)
 ## Chương trình máy tính
 Bạn có thể làm rất nhiều thứ trên máy tính. Soạn thảo văn bản, tra cứu trên Internet, chơi một trò chơi điện tử, vân vân. Máy tính trông có thể đang làm rất nhiều việc, nhưng nói ở một mức độ cơ bản thì máy tính là một cỗ máy chỉ biết nghe lời. Bạn viết một **chương trình**, bạn đưa cho máy tính thực hiện, và nó thực hiện đúng những gì mà bạn muốn, không thừa không thiếu. Có thể đó là một chương trình mà chỉ đơn giản là chương trình in các dòng chữ lên màn hình. Hoặc chương trình đó có thể là một trò chơi hấp dẫn.
 
@@ -70,9 +70,9 @@ Mỗi ngôn ngữ lập trình có trình biên dịch riêng của mình. Một
 Vì Free Pascal hiện tại vẫn đang được phát triển và hỗ trợ, và Free Pascal có thể chạy trên mọi hệ điều hành phổ biến ngày nay, nên trong quyển sách này, các hướng dẫn liên quan đến trình biên dịch của Pascal sẽ lấy Free Pascal làm mẫu, và nhóm tác giả chúng tôi cũng khuyên bạn nên dùng Free Pascal. Bạn có thể đến [trang này](https://freepascal.org/download.var) để tải trình biên dịch Free Pascal.
 
 ## Trình biên tập mã và môi trường phát triển tích hợp
-Một phần mềm mà giúp người dùng viết mã và chỉnh sửa mã là một **trình biên tập mã** (tiếng Anh là _**text editor**_). Trình biên tập mã thường hỗ trợ việc viết mã trong mọi ngôn ngữ lập trình. “Hỗ trợ” ở đây, với nghĩa đơn giản nhất tức là có tính năng syntax highlighting ([1](#)) cho bất cứ ngôn ngữ nào. Visual Studio Code là một ví dụ của trình biên tập mã. Bạn mở trình biên tập lên, bạn tạo một tệp tin mới, và bạn chọn ngôn ngữ bạn muốn viết, sau đó bạn viết mã.
+Một phần mềm mà giúp người dùng viết mã và chỉnh sửa mã là một **trình biên tập mã** (tiếng Anh là _**text editor**_). Trình biên tập mã thường hỗ trợ việc viết mã trong mọi ngôn ngữ lập trình. “Hỗ trợ” ở đây, với nghĩa đơn giản nhất tức là có tính năng syntax highlighting ([1](#ch%C3%BA-gi%E1%BA%A3i)) cho bất cứ ngôn ngữ nào. Visual Studio Code là một ví dụ của trình biên tập mã. Bạn mở trình biên tập lên, bạn tạo một tệp tin mới, và bạn chọn ngôn ngữ bạn muốn viết, sau đó bạn viết mã.
 
-Một **môi trường phát triển tích hợp** (tiếng Anh là _Integrated Development Environment_, viết tắt là _**IDE**_) thì lại khác. Đó là phần mềm cho phép người dùng viết mã nguồn, nhưng còn tích hợp cả một trình gỡ lỗi ([2](#)), và tích hợp luôn cả trình biên dịch/thông dịch của ngôn ngữ đó, để người dùng khi viết mã xong họ có thể chạy chương trình chỉ bằng cách bấm một nút. Thường thì môi trường phát triển tích hợp chỉ hỗ trợ việc phát triển chương trình viết bằng một ngôn ngữ nào đó (hay có thể hai, hay ba, nhưng thường thì các ngôn ngữ đó có liên quan thân mật với nhau), chứ không phải ngôn ngữ nào cũng viết được như trong một trình biên tập mã. Ví dụ, Eclipse là một môi trường phát triển tích hợp cho ngôn ngữ Java, PyCharm là một môi trường phát triển thích hợp cho ngôn ngữ Python. Trong PyCharm, người dùng viết chương trình bằng ngôn ngữ Python, sau đó có thể bấm nút trên thanh công cụ, và thế là phần mềm PyCharm chạy chương trình mà người dùng đã viết.
+Một **môi trường phát triển tích hợp** (tiếng Anh là _Integrated Development Environment_, viết tắt là _**IDE**_) thì lại khác. Đó là phần mềm cho phép người dùng viết mã nguồn, nhưng còn tích hợp cả một trình gỡ lỗi ([2](#ch%C3%BA-gi%E1%BA%A3i)), và tích hợp luôn cả trình biên dịch/thông dịch của ngôn ngữ đó, để người dùng khi viết mã xong họ có thể chạy chương trình chỉ bằng cách bấm một nút. Thường thì môi trường phát triển tích hợp chỉ hỗ trợ việc phát triển chương trình viết bằng một ngôn ngữ nào đó (hay có thể hai, hay ba, nhưng thường thì các ngôn ngữ đó có liên quan thân mật với nhau), chứ không phải ngôn ngữ nào cũng viết được như trong một trình biên tập mã. Ví dụ, Eclipse là một môi trường phát triển tích hợp cho ngôn ngữ Java, PyCharm là một môi trường phát triển thích hợp cho ngôn ngữ Python. Trong PyCharm, người dùng viết chương trình bằng ngôn ngữ Python, sau đó có thể bấm nút trên thanh công cụ, và thế là phần mềm PyCharm chạy chương trình mà người dùng đã viết.
 
 Ngôn ngữ Pascal cũng có một số môi trường phát triển tích hợp. Môi trường phát triển tích hợp Free Pascal tích hợp trình biên dịch Free Pascal. Môi trường phát triển tích hợp Turbo Pascal tích hợp trình biên dịch Turbo Pascal. Cả hai môi trường phát triển tích hợp này đều không có giao diện đẹp, nên chúng tôi khuyên các bạn nên dùng một trình biên tập mã như Notepad++ hay Sublime Text.
 
@@ -114,11 +114,11 @@ Cần lưu ý rằng, đối với ngôn ngữ lập trình Pascal, cũng như h
 ## Biên dịch chương trình Pascal
 Chúng ta đã viết chương trình Hello World bằng cách viết mã Pascal. Bây giờ chúng ta cần biên dịch nó thành tệp nhị phân (tệp gồm dãy BIT chứa số 1 và số 0) để máy tính có thể hiểu và chạy chương trình.
 ### Trên hệ điều hành Windows
-Lưu tệp tin hello.pas của bạn (chứa chương trình Hello World) vào ổ C:. Ngay trong ổ C:, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#)) bằng cách nhấn tổ hợp phím Windows + R, sau đó gõ “cmd”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.  
+Lưu tệp tin hello.pas của bạn (chứa chương trình Hello World) vào ổ C:. Ngay trong ổ C:, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#ch%C3%BA-gi%E1%BA%A3i)) bằng cách nhấn tổ hợp phím Windows + R, sau đó gõ “cmd”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.  
 ![Cửa sổ Command Prompt](../resources/img/cmd_window.png)  
 Trong cửa sổ đó, gõ `C:`, nhấn Enter, sau đó gõ `fpc hello.pas`, rồi nhấn Enter. Như vậy là trình biên dịch sẽ cho ra một tệp tin mới có tên là _hello.exe_ trong cùng thư mục .
 ### Trên một bản phân phối của GNU/Linux
-Lưu tệp tin hello.pas tại địa chỉ HOME của bạn (ví dụ: /home/blaisepascal/). Sau đó, mở một cửa sổ terminal ([3](#)). Trong cửa sổ đó, gõ `cd ~`, nhấn Enter, sau đó gõ `fpc hello.pas`, rồi nhấn Enter. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là `hello`, và đó chính là dạng có thể thực thi của chương trình Hello World chúng ta đã viết (bạn có thể kiểm chứng bằng cách gõ lệnh `ls` - lệnh này theo mặc định sẽ liệt kê các tệp tin và thư mục không bị ẩn trong thư mục hiện hành).
+Lưu tệp tin hello.pas tại địa chỉ HOME của bạn (ví dụ: /home/blaisepascal/). Sau đó, mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ `cd ~`, nhấn Enter, sau đó gõ `fpc hello.pas`, rồi nhấn Enter. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là `hello`, và đó chính là dạng có thể thực thi của chương trình Hello World chúng ta đã viết (bạn có thể kiểm chứng bằng cách gõ lệnh `ls` - lệnh này theo mặc định sẽ liệt kê các tệp tin và thư mục không bị ẩn trong thư mục hiện hành).
 
 ## Chạy chương trình Pascal
 Chúng ta đã có tệp tin mà chính là dạng có thể thực thi mà trình biên dịch đã tạo ra. Bây giờ, để chạy chương trình đó, các bạn gõ `hello.exe` nếu đang ở trên hệ điều hành Windows, hay `./hello` nếu bạn đang xài GNU/Linux. Khi thực hiện, chương trình có thể thực thi sẽ in ra dòng chữ "Hello, World!".  
