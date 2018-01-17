@@ -67,6 +67,7 @@ Mỗi ngôn ngữ lập trình có trình biên dịch riêng của mình. Một
 |[Free Pascal](https://www.freepascal.org/) |     `fpc`    |   Tiếp tục phát triển   |
 |[GNU Pascal](http://www.gnu-pascal.de/)    |     `gpc`    | Ngừng phát triển (2006) |
 |Turbo Pascal (Borland Pascal)              |     `tpc`    | Ngừng phát triển (1997) |
+
 Vì Free Pascal hiện tại vẫn đang được phát triển và hỗ trợ, và Free Pascal có thể chạy trên mọi hệ điều hành phổ biến ngày nay, nên trong quyển sách này, các hướng dẫn liên quan đến trình biên dịch của Pascal sẽ lấy Free Pascal làm mẫu, và nhóm tác giả chúng tôi cũng khuyên bạn nên dùng Free Pascal. Bạn có thể đến [trang này](https://freepascal.org/download.var) để tải trình biên dịch Free Pascal.
 
 ## Trình biên tập mã và môi trường phát triển tích hợp
