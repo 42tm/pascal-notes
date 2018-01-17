@@ -104,7 +104,7 @@ Begin
 ```pascal
 Writeln('Hello, World!');
 ```
-Dòng này sử dụng hàm `Writeln()` được dùng để in dòng chữ “Hello, World!” ra màn hình. Lưu ý rằng “Hello, World!” được đặt trong hai dấu phẩy trên (').  
+Dòng này sử dụng thủ tục `Writeln()` được dùng để in dòng chữ “Hello, World!” ra màn hình. Lưu ý rằng “Hello, World!” được đặt trong hai dấu phẩy trên (').  
 ```pascal
 End.
 ```
