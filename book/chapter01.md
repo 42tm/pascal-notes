@@ -3,8 +3,8 @@ Trong phần này, bạn sẽ biết được:
 - Hai dạng cơ bản của một chương trình máy tính
 - Trình biên dịch là gì, và các trình biên dịch phổ biến của ngôn ngữ Pascal
 - Trình biên tập mã và môi trường phát triển tích hợp là gì
-- Cách viết chương trình Hello World.
-- Cách biên dịch một tệp mã nguồn Pascal, và cách chạy chương trình Pascal từ giao diện dòng lệnh.
+- Cách viết chương trình Hello World
+- Cách biên dịch một tệp mã nguồn Pascal, và cách chạy chương trình Pascal từ giao diện dòng lệnh
 - Cách viết ghi chú trong ngôn ngữ Pascal
 ## Mục lục
 1. [Chương trình máy tính](#ch%C6%B0%C6%A1ng-tr%C3%ACnh-m%C3%A1y-t%C3%ADnh)
@@ -71,7 +71,7 @@ Mỗi ngôn ngữ lập trình có trình biên dịch riêng của mình. Một
 > Vì Free Pascal hiện tại vẫn đang được phát triển và hỗ trợ, và vì nó thể chạy trên mọi hệ điều hành phổ biến ngày nay, nên trong quyển sách này, các hướng dẫn liên quan đến trình biên dịch của Pascal sẽ lấy Free Pascal làm chuẩn. Nhóm tác giả chúng tôi cũng khuyên bạn nên dùng Free Pascal, bạn có thể đến [trang này](https://freepascal.org/download.var) để tải trình biên dịch Free Pascal.
 
 ## Trình biên tập mã và môi trường phát triển tích hợp
-Một phần mềm mà giúp người dùng viết mã và chỉnh sửa mã là một **trình biên tập mã** (tiếng Anh là _**text editor**_). Trình biên tập mã thường hỗ trợ việc viết mã trong mọi ngôn ngữ lập trình. “Hỗ trợ” ở đây, với nghĩa đơn giản nhất tức là có tính năng tô sáng cú pháp ([1](#ch%C3%BA-gi%E1%BA%A3i)) cho các ngôn ngữ lập trình. Visual Studio Code, Sublime Text là một ví dụ của trình biên tập mã. Bạn mở trình biên tập lên, bạn tạo một tệp tin mới, và bạn chọn ngôn ngữ bạn muốn viết, sau đó bạn viết mã.
+Một phần mềm mà giúp người dùng viết mã và chỉnh sửa mã là một **trình biên tập mã** (tiếng Anh là _**text editor**_). Trình biên tập mã thường hỗ trợ việc viết mã trong mọi ngôn ngữ lập trình. “Hỗ trợ” ở đây, với nghĩa đơn giản nhất tức là có tính năng tô sáng cú pháp ([1](#ch%C3%BA-gi%E1%BA%A3i)) cho các ngôn ngữ lập trình. Visual Studio Code, Sublime Text là hai ví dụ của trình biên tập mã. Bạn mở trình biên tập lên, bạn tạo một tệp tin mới, và bạn chọn ngôn ngữ bạn muốn viết, sau đó bạn viết mã.
 
 Một **môi trường phát triển tích hợp** (tiếng Anh là _Integrated Development Environment_, viết tắt là _**IDE**_) thì lại khác. Đó là phần mềm không chỉ cho phép người dùng viết mã nguồn, biên tập nguồn mà còn tích hợp cả một trình gỡ lỗi ([2](#ch%C3%BA-gi%E1%BA%A3i)) để người dùng khi viết mã xong họ có thể chạy và gỡ lỗi chương trình chỉ bằng cách bấm vài thao tác đơn giản. Thường thì môi trường phát triển tích hợp chỉ hỗ trợ việc phát triển chương trình viết bằng một ngôn ngữ duy nhất hoặc có thể hai, hay ba (thường thì các ngôn ngữ đó có liên quan thân mật với nhau), chứ không phải mọi ngôn ngữ đều có thể viết được như trong một trình biên tập mã. Ví dụ, Eclipse là một môi trường phát triển tích hợp cho ngôn ngữ Java, PyCharm là một môi trường phát triển tích hợp cho ngôn ngữ Python. Trong PyCharm, người dùng viết chương trình bằng ngôn ngữ Python, sau đó có thể bấm nút trên thanh công cụ, và thế là phần mềm PyCharm chạy chương trình mà người dùng đã viết.
 
