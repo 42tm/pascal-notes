@@ -21,7 +21,7 @@ Trong phần này, bạn sẽ biết được:
 ## Chương trình máy tính
 Bạn có thể làm rất nhiều thứ trên máy tính. Soạn thảo văn bản, tra cứu trên Internet, chơi một trò chơi điện tử, vân vân. Máy tính trông có thể đang làm rất nhiều việc, nhưng nói ở một mức độ cơ bản thì máy tính là một cỗ máy chỉ biết nghe lời. Bạn viết một **chương trình**, bạn đưa cho máy tính thực hiện, và nó thực hiện đúng những gì mà bạn muốn, không thừa không thiếu. Có thể đó là một chương trình mà chỉ đơn giản là chương trình in các dòng chữ lên màn hình. Hoặc chương trình đó có thể là một trò chơi hấp dẫn.
 
-Một chương trình máy tính có hai dạng: **dạng mã nguồn** (source code) và **dạng có thể thực thi** (executable). Nói chung thì sự khác biệt giữa hai dạng này là: dạng mã nguồn thì có thể được đọc dưới dạng văn bản thuần (plain text) viết bằng ngôn ngữ lập trình của mã nguồn đó, còn dạng có thể thực thi chính là dạng gồm số 1 và số 0 hay ngôn ngữ máy, mã máy. Khi bạn viết “code”, thì tức là bạn viết mã nguồn.
+Một chương trình máy tính có hai dạng: dạng mã nguồn (source code) và dạng có thể thực thi (executable). Nói chung thì sự khác biệt giữa hai dạng này là: dạng mã nguồn thì có thể được đọc bởi các lập trình viên mà biết ngôn ngữ lập trình của mã nguồn đó, còn dạng có thể thực thi là dạng gồm số 1 và số 0 mà chỉ máy tính có thể hiểu, còn ngay cả các lập trình viên cũng bó tay. Khi bạn viết “code”, thì tức là bạn viết mã nguồn.
 - - -
 Ví dụ: Một chương trình in ra dòng chữ “Hello, World!” viết bằng ngôn ngữ Python  
 Dạng mã nguồn:
