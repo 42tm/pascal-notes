@@ -3,8 +3,8 @@ Trong phần này, bạn sẽ biết được:
 - Hai dạng cơ bản của một chương trình máy tính
 - Trình biên dịch là gì, và các trình biên dịch phổ biến của ngôn ngữ Pascal
 - Trình biên tập mã và môi trường phát triển tích hợp là gì
-- Cách viết chương trình Hello World nổi tiếng, và hiểu rõ từng dòng lệnh trong chương trình đó
-- Cách biên dịch một tệp mã nguồn Pascal, và cách chạy chương trình Pascal từ giao diện dòng lệnh
+- Cách viết chương trình Hello World.
+- Cách biên dịch một tệp mã nguồn Pascal, và cách chạy chương trình Pascal từ giao diện dòng lệnh.
 - Cách viết ghi chú trong ngôn ngữ Pascal
 ## Mục lục
 1. [Chương trình máy tính](#ch%C6%B0%C6%A1ng-tr%C3%ACnh-m%C3%A1y-t%C3%ADnh)
@@ -21,7 +21,7 @@ Trong phần này, bạn sẽ biết được:
 ## Chương trình máy tính
 Bạn có thể làm rất nhiều thứ trên máy tính. Soạn thảo văn bản, tra cứu trên Internet, chơi một trò chơi điện tử, vân vân. Máy tính trông có thể đang làm rất nhiều việc, nhưng nói ở một mức độ cơ bản thì máy tính là một cỗ máy chỉ biết nghe lời. Bạn viết một **chương trình**, bạn đưa cho máy tính thực hiện, và nó thực hiện đúng những gì mà bạn muốn, không thừa không thiếu. Có thể đó là một chương trình mà chỉ đơn giản là chương trình in các dòng chữ lên màn hình. Hoặc chương trình đó có thể là một trò chơi hấp dẫn.
 
-Một chương trình máy tính có hai dạng: **dạng mã nguồn** (source code) và **dạng có thể thực thi** (executable). Nói chung thì sự khác biệt giữa hai dạng này là: dạng mã nguồn thì có thể được đọc bởi các lập trình viên mà biết ngôn ngữ lập trình của mã nguồn đó, còn dạng có thể thực thi chính là dạng gồm số 1 và số 0 mà chỉ máy tính có thể hiểu, còn ngay cả các lập trình viên cũng bó tay. Khi bạn viết “code”, thì tức là bạn viết mã nguồn.
+Một chương trình máy tính có hai dạng: **dạng mã nguồn** (source code) và **dạng có thể thực thi** (executable). Nói chung thì sự khác biệt giữa hai dạng này là: dạng mã nguồn thì có thể được đọc dưới dạng văn bản thuần (plain text) viết ngôn ngữ lập trình của mã nguồn đó, còn dạng có thể thực thi chính là dạng gồm số 1 và số 0 hay ngôn ngữ máy, mã máy. Khi bạn viết “code”, thì tức là bạn viết mã nguồn.
 - - -
 Ví dụ: Một chương trình in ra dòng chữ “Hello, World!” viết bằng ngôn ngữ Python  
 Dạng mã nguồn:
@@ -68,7 +68,7 @@ Mỗi ngôn ngữ lập trình có trình biên dịch riêng của mình. Một
 |[GNU Pascal](http://www.gnu-pascal.de/)    |     `gpc`    | Ngừng phát triển (2006) |
 |Turbo Pascal (Borland Pascal)              |     `tpc`    | Ngừng phát triển (1997) |
 
-> Vì Free Pascal hiện tại vẫn đang được phát triển và hỗ trợ, và Free Pascal có thể chạy trên mọi hệ điều hành phổ biến ngày nay, nên trong quyển sách này, các hướng dẫn liên quan đến trình biên dịch của Pascal sẽ lấy Free Pascal làm chuẩn, và nhóm tác giả chúng tôi cũng khuyên bạn nên dùng Free Pascal. Bạn có thể đến [trang này](https://freepascal.org/download.var) để tải trình biên dịch Free Pascal.
+> Vì Free Pascal hiện tại vẫn đang được phát triển và hỗ trợ, và vì nó thể chạy trên mọi hệ điều hành phổ biến ngày nay, nên trong quyển sách này, các hướng dẫn liên quan đến trình biên dịch của Pascal sẽ lấy Free Pascal làm chuẩn. Nhóm tác giả chúng tôi cũng khuyên bạn nên dùng Free Pascal, bạn có thể đến [trang này](https://freepascal.org/download.var) để tải trình biên dịch Free Pascal.
 
 ## Trình biên tập mã và môi trường phát triển tích hợp
 Một phần mềm mà giúp người dùng viết mã và chỉnh sửa mã là một **trình biên tập mã** (tiếng Anh là _**text editor**_). Trình biên tập mã thường hỗ trợ việc viết mã trong mọi ngôn ngữ lập trình. “Hỗ trợ” ở đây, với nghĩa đơn giản nhất tức là có tính năng tô sáng cú pháp ([1](#ch%C3%BA-gi%E1%BA%A3i)) cho các ngôn ngữ lập trình. Visual Studio Code, Sublime Text là một ví dụ của trình biên tập mã. Bạn mở trình biên tập lên, bạn tạo một tệp tin mới, và bạn chọn ngôn ngữ bạn muốn viết, sau đó bạn viết mã.
@@ -89,8 +89,8 @@ Begin
     Writeln('Hello, World!');
 End.
 ```
-Lưu thành một tệp tin, đặt tên là “hello.pas".  
-**Lưu ý**: phần mở rộng của tệp tin chứa mã nguồn ngôn ngữ Pascal là “pas”.
+Lưu thành một tệp tin, đặt tên là “hello.pas".  
+> **Lưu ý**: phần mở rộng của tệp tin chứa mã nguồn ngôn ngữ Pascal là “pas”.
 
 ### Phân tích mã nguồn của chương trình Hello World  
 ```pascal
@@ -110,7 +110,7 @@ End.
 ```
 Đây là dòng để kết thúc chương trình chính. Tương tự như từ khóa `Begin`, từ khóa `End` cũng được dùng để kết thúc chương trình con mà sau này chúng ta sẽ động đến.  
 
-Cần lưu ý rằng, đối với ngôn ngữ lập trình Pascal, cũng như hầu hết các ngôn ngữ lập trình khác, cần phải tuân theo các quy tắc đã được định ra một cách chặt chẽ. Ví dụ, bạn phải có dấu chấm phẩy (;) cuối các câu lệnh Pascal (ngoại trừ các từ khóa như `Begin`, `If`, `else`). Sau từ khóa `End` mà kết thúc chương trình chính, cần phải có dấu chấm. Nếu thiếu dấu chấm này, hay không tuân theo bất cứ quy tắc nào, trình biên dịch sẽ thông báo chương trình lỗi và không cho ra chương trình dạng có thể thực thi nữa.
+> Cần lưu ý rằng, đối với ngôn ngữ lập trình Pascal, cũng như hầu hết các ngôn ngữ lập trình khác, cần phải tuân theo các quy tắc đã được định ra một cách chặt chẽ. Ví dụ, bạn phải có dấu chấm phẩy (`;`) cuối các câu lệnh Pascal (ngoại trừ các từ khóa như `Begin`, `If`, `else`). Sau từ khóa `End` mà kết thúc chương trình chính, cần phải có dấu chấm. Nếu thiếu dấu chấm này, hay không tuân theo bất cứ quy tắc nào, trình biên dịch sẽ thông báo chương trình lỗi và không cho ra chương trình dạng có thể thực thi nữa.
 
 ## Biên dịch chương trình Pascal
 Chúng ta đã viết chương trình Hello World bằng cách viết mã Pascal. Bây giờ chúng ta cần biên dịch nó thành tệp nhị phân (tệp gồm dãy BIT chứa số 1 và số 0) để máy tính có thể hiểu và chạy chương trình.
@@ -127,7 +127,7 @@ Chúng ta đã có tệp tin mà chính là dạng có thể thực thi mà trì
 
 ## Ghi chú trong chương trình
 Khi viết mã nguồn, các lập trình viên thường viết ghi chú, chủ yếu là để giải thích một đoạn mã này sẽ làm công việc gì. Các ghi chú chỉ dành cho lập trình viên đọc, chứ không phải để máy tính hiểu, cho nên các trình biên dịch/thông dịch hoàn toàn bỏ qua các ghi chú.
-Trong ngôn ngữ Pascal (cụ thể hơn là với Free Pascal), khi muốn viết ghi chú trên một dòng, bạn gõ "//", và sau đó là ghi chú của bạn. Khi muốn viết ghi chú trên nhiều dòng, bạn có thể dùng cặp ký tự "{" và "}" hoặc "(\*" và "\*)". Bất kỳ cái gì ở giữa ký tự "{" và "}" ( hay "(\*" và "\*)" ) thì sẽ được coi là ghi chú. Dưới đây là một ví dụ.
+Trong ngôn ngữ Pascal, khi muốn viết ghi chú trên một dòng, bạn gõ "`//`" vào đầu dòng, và sau đó là ghi chú của bạn. Khi muốn viết ghi chú trên nhiều dòng, bạn có thể dùng cặp ký tự "`{`" và "`}`" hoặc "`(*`" và "`*)`". Bất kỳ cái gì ở các cặp ký tự trên sẽ được coi là ghi chú. Dưới đây là một ví dụ.
 ```pascal
 Program CommentDemo;
 Uses Crt;
