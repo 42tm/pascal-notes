@@ -10,7 +10,7 @@ Ngôn ngữ Pascal sử dụng các từ khóa nhiều hơn các ký tự, ví d
 Đây là cuốn sách tập trung vào cách sử dụng, cách viết một chương trình Pascal cùng với cách sử dụng cú pháp có trong Pascal. Hy vọng quyển sách _Sổ tay Pascal_ này là một quyển sách hữu ích cho bạn đọc.
 
 - - -
-## **MỤC LỤC**
+## **Mục Lục**
 
 [Chương 1 >>](chapter01.md)
 
@@ -23,7 +23,3 @@ Ngôn ngữ Pascal sử dụng các từ khóa nhiều hơn các ký tự, ví d
 <!-- [Chương 5 >>](chapter05.md) -->
 
 [Chương 6 >>](chapter06.md)
-<br/>
-
-- - -
-Đã đóng góp cho trang này: Nguyễn Hoàng Dương ([@NOVAglow](https:/github.com/NOVAglow)), Nguyễn Tuấn Dũng  ([@dungwinux](https:/github.com/dungwinux)).
