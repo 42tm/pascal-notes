@@ -1,5 +1,5 @@
 # Chương 1: Bắt đầu với ngôn ngữ Pascal
-Trong phần này, bạn sẽ biết được:
+Trong chương này, bạn sẽ biết được:
 - Hai dạng cơ bản của một chương trình máy tính
 - Trình biên dịch là gì, và các trình biên dịch phổ biến của ngôn ngữ Pascal
 - Trình biên tập mã và môi trường phát triển tích hợp là gì
