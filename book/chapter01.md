@@ -89,7 +89,7 @@ Begin
     Writeln('Hello, World!');
 End.
 ```
-Lưu thành một tệp tin, đặt tên là “hello.pas".  
+Lưu thành một tệp tin, đặt tên là “_hello.pas_".  
 > **Lưu ý**: phần mở rộng của tệp tin chứa mã nguồn ngôn ngữ Pascal là “pas”.
 
 ### Phân tích mã nguồn của chương trình Hello World  
@@ -115,14 +115,18 @@ End.
 ## Biên dịch chương trình Pascal
 Chúng ta đã viết chương trình Hello World bằng cách viết mã Pascal. Bây giờ chúng ta cần biên dịch nó thành tệp nhị phân (tệp gồm dãy BIT chứa số 1 và số 0) để máy tính có thể hiểu và chạy chương trình.
 ### Trên hệ điều hành Windows
-Lưu tệp tin hello.pas của bạn (chứa chương trình Hello World) vào ổ C:. Ngay trong ổ C:, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#ch%C3%BA-gi%E1%BA%A3i)) bằng cách nhấn tổ hợp phím Windows + R, sau đó gõ “cmd”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.  
+Lưu tệp tin _hello.pas_ của bạn (chứa chương trình Hello World) vào ổ C. Ngay trong ổ C, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#ch%C3%BA-gi%E1%BA%A3i)) bằng cách nhấn tổ hợp phím Win + R, sau đó gõ “`cmd`”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.
 ![Cửa sổ Command Prompt](../resources/img/cmd_window.png)  
-Trong cửa sổ đó, gõ "C:", nhấn Enter, sau đó gõ "fpc hello.pas", rồi nhấn Enter. Như vậy là trình biên dịch Free Pascal sẽ cho ra một tệp tin mới có tên là _hello.exe_ trong cùng thư mục .
+Trong cửa sổ đó, gõ "`C:`", nhấn Enter, sau đó gõ "`fpc hello.pas`", rồi nhấn Enter. Như vậy là trình biên dịch Free Pascal sẽ cho ra một tệp tin mới có tên là _hello.exe_ trong cùng thư mục .
 ### Trên một bản phân phối của GNU/Linux
-Lưu tệp tin hello.pas tại địa chỉ HOME của bạn (ví dụ: /home/blaisepascal/). Sau đó, mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "cd ~", nhấn Enter, sau đó gõ "fpc hello.pas", rồi nhấn Enter. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó chính là dạng có thể thực thi của chương trình Hello World chúng ta đã viết (bạn có thể kiểm chứng bằng cách gõ lệnh `ls` - lệnh này theo mặc định sẽ liệt kê các tệp tin và thư mục không bị ẩn trong thư mục hiện hành).
-<!---### Trên Mac OS--->
+Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (ví dụ: _/home/blaisepascal/_). Sau đó, mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter, sau đó gõ "`fpc hello.pas`", rồi nhấn Enter. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó chính là dạng có thể thực thi của chương trình Hello World chúng ta đã viết (bạn có thể kiểm chứng bằng cách gõ lệnh `ls` - lệnh này theo mặc định sẽ liệt kê các tệp tin và thư mục không bị ẩn trong thư mục hiện hành).
+### Trên Mac OS
+Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (_Users/blaisepascal/_). Sau đó mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter rồi gõ "`fpc hello.pas`" rồi Enter lần nữa để thực thi. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó là tệp có thể thực thi của chương trình Hello World chúng ta đã viết 
+
+> Lưu ý, tệp thực thi trên Mac OS khác với tệp thực thi trên Linux, nên bạn không thể trao đổi tệp thực thi giữa hai hệ điều hành này.
+
 ## Chạy chương trình Pascal
-Chúng ta đã có tệp tin mà chính là dạng có thể thực thi mà trình biên dịch đã tạo ra. Bây giờ, để chạy chương trình, vẫn cửa sổ Command Prompt/Terminal đó, các bạn gõ `hello.exe` nếu đang ở trong Command Prompt, hay `./hello` nếu bạn đang xài terminal. Khi thực hiện, chương trình có thể thực thi sẽ in ra dòng chữ "Hello, World!".  
+Chúng ta đã có tệp tin mà chính là dạng có thể thực thi mà trình biên dịch đã tạo ra. Bây giờ, để chạy chương trình, vẫn cửa sổ Command Prompt/Terminal đó, các bạn gõ `hello.exe` nếu đang ở trong Command Prompt, hay `./hello` nếu bạn đang xài terminal. Khi thực hiện, chương trình có thể thực thi sẽ in ra dòng chữ "Hello, World!".
 ![Chương trình đã được thực thi](../resources/img/hello_world_executed.png)
 
 ## Ghi chú trong chương trình
