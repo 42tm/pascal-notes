@@ -121,7 +121,7 @@ Trong cửa sổ đó, gõ "`C:`", nhấn Enter, sau đó gõ "`fpc hello.pas`",
 ### Trên một bản phân phối của GNU/Linux
 Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (ví dụ: _/home/blaisepascal/_). Sau đó, mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter, sau đó gõ "`fpc hello.pas`", rồi nhấn Enter. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó chính là dạng có thể thực thi của chương trình Hello World chúng ta đã viết (bạn có thể kiểm chứng bằng cách gõ lệnh `ls` - lệnh này theo mặc định sẽ liệt kê các tệp tin và thư mục không bị ẩn trong thư mục hiện hành).
 ### Trên Mac OS
-Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (_Users/blaisepascal/_). Sau đó mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter rồi gõ "`fpc hello.pas`" rồi Enter lần nữa để thực thi. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó là tệp có thể thực thi của chương trình Hello World chúng ta đã viết 
+Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (_/Users/blaisepascal/_). Sau đó mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter rồi gõ "`fpc hello.pas`" rồi Enter lần nữa để thực thi. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó là tệp có thể thực thi của chương trình Hello World chúng ta đã viết 
 
 > Lưu ý, tệp thực thi trên Mac OS khác với tệp thực thi trên Linux, nên bạn không thể trao đổi tệp thực thi giữa hai hệ điều hành này.
 
