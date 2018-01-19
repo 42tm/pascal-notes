@@ -15,6 +15,7 @@ Trong chương này, bạn sẽ biết được:
 5. [Biên dịch chương trình Pascal](#bi%C3%AAn-d%E1%BB%8Bch-ch%C6%B0%C6%A1ng-tr%C3%ACnh-pascal)
     - [Trên hệ điều hành Windows](#tr%C3%AAn-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-windows)
     - [Trên một bản phân phối của GNU/Linux](#tr%C3%AAn-m%E1%BB%99t-b%E1%BA%A3n-ph%C3%A2n-ph%E1%BB%91i-c%E1%BB%A7a-gnulinux)
+    - [Trên hệ điều hành macOS](#tr%C3%AAn-h%E1%BB%87-%C4%91i%E1%BB%81u-h%C3%A0nh-macos)
 6. [Chạy chương trình Pascal](#ch%E1%BA%A1y-ch%C6%B0%C6%A1ng-tr%C3%ACnh-pascal)
 7. [Ghi chú trong chương trình](#ghi-ch%C3%BA-trong-ch%C6%B0%C6%A1ng-tr%C3%ACnh)
 8. [Chú giải](#ch%C3%BA-gi%E1%BA%A3i)
@@ -115,18 +116,18 @@ End.
 ## Biên dịch chương trình Pascal
 Chúng ta đã viết chương trình Hello World bằng cách viết mã Pascal. Bây giờ chúng ta cần biên dịch nó thành tệp nhị phân (tệp gồm dãy BIT chứa số 1 và số 0) để máy tính có thể hiểu và chạy chương trình.
 ### Trên hệ điều hành Windows
-Lưu tệp tin _hello.pas_ của bạn (chứa chương trình Hello World) vào ổ C. Ngay trong ổ C, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#ch%C3%BA-gi%E1%BA%A3i)) bằng cách nhấn tổ hợp phím Win + R, sau đó gõ “`cmd`”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.
+Lưu tệp tin _hello.pas_ của bạn (chứa chương trình Hello World) vào ổ C. Ngay trong ổ C, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#ch%C3%BA-gi%E1%BA%A3i)) bằng cách nhấn tổ hợp phím Win + R, sau đó gõ “`cmd`”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.  
 ![Cửa sổ Command Prompt](../resources/img/cmd_window.png)  
 Trong cửa sổ đó, gõ "`C:`", nhấn Enter, sau đó gõ "`fpc hello.pas`", rồi nhấn Enter. Như vậy là trình biên dịch Free Pascal sẽ cho ra một tệp tin mới có tên là _hello.exe_ trong cùng thư mục .
 ### Trên một bản phân phối của GNU/Linux
 Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (ví dụ: _/home/blaisepascal/_). Sau đó, mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter, sau đó gõ "`fpc hello.pas`", rồi nhấn Enter. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó chính là dạng có thể thực thi của chương trình Hello World chúng ta đã viết (bạn có thể kiểm chứng bằng cách gõ lệnh `ls` - lệnh này theo mặc định sẽ liệt kê các tệp tin và thư mục không bị ẩn trong thư mục hiện hành).
-### Trên Mac OS
-Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (_/Users/blaisepascal/_). Sau đó mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter rồi gõ "`fpc hello.pas`" rồi Enter lần nữa để thực thi. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó là tệp có thể thực thi của chương trình Hello World chúng ta đã viết 
+### Trên hệ điều hành macOS
+Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (ví dụ: _/Users/blaisepascal/_). Sau đó mở một cửa sổ terminal ([3](#ch%C3%BA-gi%E1%BA%A3i)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter rồi gõ "`fpc hello.pas`" rồi Enter lần nữa để thực thi. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó là tệp có thể thực thi của chương trình Hello World chúng ta đã viết.
 
-> Lưu ý, tệp thực thi trên Mac OS khác với tệp thực thi trên Linux, nên bạn không thể trao đổi tệp thực thi giữa hai hệ điều hành này.
+> Lưu ý, tệp thực thi trên macOS khác với tệp thực thi trên GNU/Linux, nên bạn không thể trao đổi tệp thực thi giữa hai hệ điều hành này.
 
 ## Chạy chương trình Pascal
-Chúng ta đã có tệp tin mà chính là dạng có thể thực thi mà trình biên dịch đã tạo ra. Bây giờ, để chạy chương trình, vẫn cửa sổ Command Prompt/Terminal đó, các bạn gõ `hello.exe` nếu đang ở trong Command Prompt, hay `./hello` nếu bạn đang xài terminal. Khi thực hiện, chương trình có thể thực thi sẽ in ra dòng chữ "Hello, World!".
+Chúng ta đã có tệp tin mà chính là dạng có thể thực thi mà trình biên dịch đã tạo ra. Bây giờ, để chạy chương trình, vẫn cửa sổ Command Prompt/Terminal đó, các bạn gõ "`hello.exe`" nếu đang ở trong Command Prompt, hay "`./hello`" nếu bạn đang xài terminal. Khi thực hiện, chương trình có thể thực thi sẽ in ra dòng chữ "Hello, World!".
 ![Chương trình đã được thực thi](../resources/img/hello_world_executed.png)
 
 ## Ghi chú trong chương trình
@@ -158,4 +159,4 @@ End.
 ## Chú giải
 1. **Tô sáng cú pháp (syntax highlighting)** : Là một tính năng của các trình biên tập mã dùng để hiển thị mã với các màu khác nhau cho các thể loại cú pháp khác nhau.
 2. **Trình gỡ lỗi** : Là một phần mềm giúp lập trình viên phát hiện lỗi và gỡ lỗi trong chương trình của mình.
-3. **Command Prompt**, **Terminal** : Nói chung, Command Prompt là cửa sổ cho phép bạn gõ lệnh để điều khiển máy tính trong hệ điều hành Windows. Terminal là cửa sổ có chức năng tương tự nhưng là trên hệ điều hành GNU/Linux.
+3. **Command Prompt**, **Terminal** : Nói chung, Command Prompt là cửa sổ cho phép bạn gõ lệnh để điều khiển máy tính trong hệ điều hành Windows. Terminal là cửa sổ có chức năng tương tự nhưng là trên các hệ điều hành tựa Unix (như macOS hay các bản phân phối của GNU/Linux).
