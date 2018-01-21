@@ -175,7 +175,7 @@ Như chúng ta đã biết, sức mạnh máy tính ở chỗ hiệu năng tính
 ```pascal
 program backtrack;
 var
-    // For Count function
+    // Các biến dùng cho hàm Count
     n, k: integer;
 procedure Count(num: integer; total: QWord);
 var
@@ -195,5 +195,5 @@ begin
     Count(0, 0);
 end.
 ```
-Chương trình trên về cơ bản in ra các số có `n` chữ số, mỗi chữ số trong khoảng `0 ... k`. Kết quả được gán vào biến `c`.
+Chương trình trên về cơ bản in ra các số có `n` chữ số, mỗi chữ số trong khoảng `0 ... k`. Kết quả được in ra trên màn hình.
 > Đọc thêm về [Backtrack](https://vi.wikipedia.org/wiki/Quay_lui_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh))
