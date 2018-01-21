@@ -1,9 +1,9 @@
 # Chương 4: Chương trình con
 Trong chương này, bạn sẽ biết được:
-- Hàm là gì
-- Cách sử dụng hàm 
-- Các thao tác với hàm
-- Đệ quy (hàm gọi chính nó)
+- Hàm, thủ tục là gì
+- Cách sử dụng hàm và thủ tục
+- Các thao tác với hàm và thủ tục
+- Ứng dụng của hàm và thủ tục
 
 ## Mục lục
 1. [Hàm](#hàm)
