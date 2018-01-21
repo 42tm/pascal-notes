@@ -1,8 +1,20 @@
-# Sổ tay Pascal
+# Chương 4: Chương trình con
+Trong chương này, bạn sẽ biết được:
+- Hàm là gì
+- Cách sử dụng hàm 
+- Các thao tác với hàm
+- Đệ quy (hàm gọi chính nó)
 
-## Chương 4: Chương trình con
+## Mục lục
+1. [Hàm](#hàm)
+2. [Thủ tục](#thủ-tục)
+3. [Giá trị mặc định](#giá-trị-mặc-định)
+4. [Biến tham số](#biến-tham-số)
+5. [Overloading](#overloading)
+6. [Đệ quy](#đệ-quy)
 
-### 4.1: Hàm
+
+## Hàm
 
 Hàm (`function`) là thứ mà bản thân nó chứa các khối lệnh để hoàn thành một nhiệm vụ cụ thể. Các hàm thường lấy vào dữ liệu và trả lại một kết quả. Một khi được viết, hàm có thể được dùng đi dùng lại nhiều lần, có thể được gọi từ hàm khác hoặc thậm chí gọi từ trong chính nó.
 
@@ -28,7 +40,7 @@ end.
 
 Kết quả của hàm được lưu trong biến có tên chính là tên của hàm. Như trong câu lệnh `Add := c;`, giá trị của `c`, tức tổng của `a` và `b`, được gán vào biến `Add`, là kết quả hàm trả về.
 
-### 4.2: Thủ tục
+## Thủ tục
 
 Thủ tục (`procedure`) cũng tương tự như hàm, nhưng nó chỉ lấy vào dữ liệu và không trả lại bất cứ thứ gì.
 
@@ -49,7 +61,7 @@ begin
 end.
 ```
 
-### 4.3 Giá trị mặc định
+## Giá trị mặc định
 
 Trong hàm và thủ tục, đôi khi bạn cần nhập vào giá trị. Trong trường hợp không có giá trị nào hoặc giá trị không thỏa mãn, giá trị mặc định sẽ được dùng.
 ```pascal
@@ -69,7 +81,7 @@ begin
 end.
 ```
 
-### 4.4 Thay đổi tham số
+## Biến tham số
 Trong một số trường hợp, bạn cần xử lý trực tiếp trên biến số mà không qua bất cứ biến số trung gian nào. Lúc này chúng ta sử dụng từ khóa `var` hoặc `out`.
 
 ```pascal
@@ -98,7 +110,7 @@ end.
 
 Ở phía trên, ta có thể thấy `ProcA` và `ProcB` đều trả về kết quả như nhau. Khi chạy ProcA, trình biên dịch sẽ cảnh báo bạn rằng thông số bạn nhập vào ( biến số `c` ) chưa gán giá trị trước đó. Tuy nhiên hàm ProcB cho trình biên dịch biết thêm thông tin rằng thông số nhập vào không cần phải gán giá trị trước.
 
-### 4.5 Overloading
+## Overloading
 
 Theo định nghĩa, bạn có thể khai báo nhiều hơn một lần một hàm/thủ tục, với mỗi lần nhận tham số khác nhau. Danh sách tham số phải khác ít nhất một trong các kiểu phần tử của nó. Nói một cách đơn giản, với một hàm/thủ tục, bạn có thể chia nhiều trường hợp để có thể xử lý nhiều kiểu dữ liệu nhập vào khác nhau.
 
@@ -132,7 +144,7 @@ end.
 
 Khi biên dịch, trình biên dịch sẽ tìm hàm/thủ tục phù hợp với dữ liệu nhập vào. Chẳng hạn `12` trong `Msg(12);` tương ứng với `Msg(integer);`
 
-### 4.6 Hàm gọi chính nó (Đệ quy)
+## Đệ quy
 Nghe qua, bạn có thể nghĩ tới việc lặp lại giống như `for .. to  .. do` hay `while .. do` hoặc `repeat .. until`. Nhưng khi lặp lại, bạn cần nhập nhiều tham số (> 10) và chúng luôn thay đổi và phụ thuộc nhiều, khi đó bạn sẽ sử dụng đệ quy.
 
 ```pascal
