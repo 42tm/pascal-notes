@@ -12,7 +12,7 @@ Trong chương này, bạn sẽ biết được:
 4. [Biến tham số](#biến-tham-số)
 5. [Overloading](#overloading)
 6. [Đệ quy](#đệ-quy)
-
+7. [Quay lui](#quay-lui)
 
 ## Hàm
 
@@ -168,4 +168,32 @@ begin
 end.
 ```
 
-> Để biết thêm đệ quy, vui lòng tìm hiểu thêm ở trên mạng.
+> Đọc thêm về [Đệ quy](https://vi.wikipedia.org/wiki/%C4%90%E1%BB%87_quy)
+
+## Quay lui
+Như chúng ta đã biết, sức mạnh máy tính ở chỗ hiệu năng tính toán của nó. Chẳng hạn CPU 3,2 GHz đem lại khả năng xử lý ~ 3 200 000 chu trình trên giây. Backtrack hay quay lui là một ứng dụng của đệ quy cho phép bạn thử hàng loạt các trường hợp. Sau đây là ví dụ của quay lui viết trong Pascal.
+```pascal
+program backtrack;
+var
+    // For Count function
+    n, k: integer;
+procedure Count(num: integer; total: QWord);
+var
+    i: integer;
+begin
+    if num < 0 then exit;
+    if num = n then begin
+        writeln(total);
+        exit;
+    end;
+    for i := 0 to k do
+        Count(num + 1, total * 10 + i);
+end;
+begin
+    n := 5;
+    k := 9;
+    Count(0, 0);
+end.
+```
+Chương trình trên về cơ bản in ra các số có `n` chữ số, mỗi chữ số trong khoảng `0 ... k`. Kết quả được gán vào biến `c`.
+> Đọc thêm về [Backtrack](https://vi.wikipedia.org/wiki/Quay_lui_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh))
