@@ -256,7 +256,7 @@ End.
 
 Trình biên dịch vẫn hoàn thành công việc biên dịch và vẫn cho ra chương trình ở dạng có thể thực thi như bình thường. Tuy nhiên, **gán giá trị không trong giới hạn của kiểu dữ liệu có thể để lại nhiều hậu quả. Vì vậy, nếu thấy cảnh cáo này, bạn cần xử lý vấn đề ngay lập tức.**
 
-Biến số cũng không nên có giá trị ngoài giới hạn trong bất cứ lúc nào mà chương trình chạy. Khi biên dịch chương trình sau, bạn sẽ không gặp lỗi hay cảnh báo từ trình biên dịch. Nhưng biến số `c` kiểu `byte` được gán với giá trị 250 + 250 = 500, mà 500 nằm ngoài giới hạn của dữ liệu kiểu `byte`, và điều đó cũng sẽ để lại những hậu quả khôn lường.
+Biến số cũng không nên có giá trị ngoài giới hạn trong bất cứ lúc nào mà chương trình chạy. Khi biên dịch chương trình sau, bạn sẽ không gặp lỗi hay cảnh báo từ trình biên dịch. Nhưng biến số `c` kiểu `byte` được gán với giá trị 250 + 250 = 500, mà 500 nằm ngoài giới hạn của dữ liệu kiểu `byte` (từ 0 đến 255) nên sẽ gây ra hiện tượng ra ngoài khoảng, và khi đó, số sẽ lại được đếm bắt đầu từ 0.
 ```pascal
 Program Failure;
 Var a, b, c: byte;
@@ -265,6 +265,7 @@ Begin
     a := 250;
     b := 250;
     c := a + b;
+    write(c);       // Chương trình sẽ in ra 244, không phải 500 (do 500 - 256 = 244)
 End.
 ```
 
