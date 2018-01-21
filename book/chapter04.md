@@ -16,7 +16,7 @@ Trong chương này, bạn sẽ biết được:
 
 ## Hàm
 
-Hàm (`function`) là thứ mà bản thân nó chứa các khối lệnh để hoàn thành một nhiệm vụ cụ thể. Các hàm thường lấy vào dữ liệu và trả lại một kết quả. Một khi được viết, hàm có thể được dùng đi dùng lại nhiều lần, có thể được gọi từ hàm khác hoặc thậm chí gọi từ trong chính nó.
+Hàm (function) là thứ mà bản thân nó chứa các khối lệnh để hoàn thành một nhiệm vụ cụ thể. Các hàm thường lấy vào dữ liệu và trả lại một kết quả. Một khi được viết, hàm có thể được dùng đi dùng lại nhiều lần, có thể được gọi từ hàm khác hoặc thậm chí gọi từ trong chính nó.
 
 ```pascal
 program functionDemo;
@@ -42,7 +42,7 @@ Kết quả của hàm được lưu trong biến có tên chính là tên của
 
 ## Thủ tục
 
-Thủ tục (`procedure`) cũng tương tự như hàm, nhưng nó chỉ lấy vào dữ liệu và không trả lại bất cứ thứ gì.
+Thủ tục (procedure) cũng tương tự như hàm, nhưng nó chỉ lấy vào dữ liệu và không trả lại bất cứ thứ gì.
 
 ```pascal
 program procedureDemo;
