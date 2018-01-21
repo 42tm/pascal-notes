@@ -7,7 +7,7 @@ Trong chương này, bạn sẽ biết được:
 - Cách biên dịch một tệp mã nguồn Pascal, và cách chạy chương trình Pascal từ giao diện dòng lệnh
 - Cách viết ghi chú trong ngôn ngữ Pascal
 ## Mục lục
-1. [Chương trình máy tính](#ch%C6%B0%C6%A1ng-tr%C3%ACnh-m%C3%A1y-t%C3%ADnh)
+1. [Chương trình máy tính](#chương-trình-máy-tính)
 2. [Trình biên dịch](#tr%C3%ACnh-bi%C3%AAn-d%E1%BB%8Bch)
 3. [Trình biên tập mã và môi trường phát triển tích hợp](#tr%C3%ACnh-bi%C3%AAn-t%E1%BA%ADp-m%C3%A3-v%C3%A0-m%C3%B4i-tr%C6%B0%E1%BB%9Dng-ph%C3%A1t-tri%E1%BB%83n-t%C3%ADch-h%E1%BB%A3p)
 4. [Viết chương trình Pascal đầu tiên](#vi%E1%BA%BFt-ch%C6%B0%C6%A1ng-tr%C3%ACnh-pascal-%C4%91%E1%BA%A7u-ti%C3%AAn)
