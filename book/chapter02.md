@@ -20,6 +20,7 @@ Trong chương này, bạn sẽ biết được:
 5. [Từ khóa `Type`](#từ-khóa-type)
 ## Kiểu dữ liệu
 Dữ liệu trong máy tính có nhiều kiểu, ví dụ như kiểu số nguyên, kiểu số thực, kiểu chuỗi ký tự. Ngôn ngữ Pascal cũng có các kiểu dữ liệu. Một số kiểu dữ liệu có sẵn được liệt kê trong bảng sau. Các kiểu dữ liệu quan trọng và hay được sử dụng được in đậm.  
+
 |  Kiểu dữ liệu |                               Định nghĩa                                 |             Giới hạn             |
 |      ---      |                                   ---                                    |                ---               |
 | **`boolean`** | Kiểu dữ liệu chỉ có thể mang một trong hai giá trị: `true` hoặc `false`  | `true` và `false`                |
