@@ -265,7 +265,7 @@ Begin
     a := 250;
     b := 250;
     c := a + b;
-    write(c);       // Chương trình sẽ in ra 244, không phải 500 (do 500 - 256 = 244)
+    write(c);       // Chương trình sẽ in ra 244, không phải 500 (do 500 - 255 - 1 = 244)
 End.
 ```
 
