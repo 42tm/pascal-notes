@@ -197,3 +197,6 @@ end.
 ```
 Chương trình trên về cơ bản in ra các số có `n` chữ số, mỗi chữ số trong khoảng `0 ... k`. Kết quả được in ra trên màn hình.
 > Đọc thêm về [Backtrack](https://vi.wikipedia.org/wiki/Quay_lui_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh))
+- - -
+[<< Chương 3](chapter03.md)  
+[Chương 5 >>](chapter05.md)

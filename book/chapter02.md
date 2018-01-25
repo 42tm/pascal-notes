@@ -308,3 +308,6 @@ Type
                    Title: string;
                End;
 ```
+- - -
+[<< Chương 1](chapter01.md)  
+[Chương 3 >>](chapter03.md)

@@ -160,3 +160,6 @@ End.
 1. **Tô sáng cú pháp (syntax highlighting)** : Là một tính năng của các trình biên tập mã dùng để hiển thị mã với các màu khác nhau cho các thể loại cú pháp khác nhau.
 2. **Trình gỡ lỗi** : Là một phần mềm giúp lập trình viên phát hiện lỗi và gỡ lỗi trong chương trình của mình.
 3. **Command Prompt**, **Terminal** : Nói chung, Command Prompt là cửa sổ cho phép bạn gõ lệnh để điều khiển máy tính trong hệ điều hành Windows. Terminal là cửa sổ có chức năng tương tự nhưng là trên các hệ điều hành tựa Unix (như macOS hay các bản phân phối của GNU/Linux).
+- - -
+[<< Lời nói đầu](_intro.md)  
+[Chương 2 >>](chapter02.md)
