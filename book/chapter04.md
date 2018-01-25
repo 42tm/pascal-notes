@@ -10,7 +10,7 @@ Trong chương này, bạn sẽ biết được:
 2. [Thủ tục](#thủ-tục)
 3. [Giá trị mặc định](#giá-trị-mặc-định)
 4. [Biến tham số](#biến-tham-số)
-5. [Overloading](#overloading)
+5. [Nạp chồng](#nạp-chồng)
 6. [Đệ quy](#đệ-quy)
 7. [Quay lui](#quay-lui)
 
@@ -110,7 +110,7 @@ end.
 
 Ở phía trên, ta có thể thấy `ProcA` và `ProcB` đều trả về kết quả như nhau. Khi chạy ProcA, trình biên dịch sẽ cảnh báo bạn rằng thông số bạn nhập vào ( biến số `c` ) chưa gán giá trị trước đó. Tuy nhiên hàm ProcB cho trình biên dịch biết thêm thông tin rằng thông số nhập vào không cần phải gán giá trị trước.
 
-## Overloading
+## Nạp chồng
 
 Theo định nghĩa, bạn có thể khai báo nhiều hơn một lần một hàm/thủ tục, với mỗi lần nhận tham số khác nhau. Danh sách tham số phải khác ít nhất một trong các kiểu phần tử của nó. Nói một cách đơn giản, với một hàm/thủ tục, bạn có thể chia nhiều trường hợp để có thể xử lý nhiều kiểu dữ liệu nhập vào khác nhau.
 
