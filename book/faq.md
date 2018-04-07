@@ -17,7 +17,7 @@ Trên mạng, nếu tra định nghĩa của máy tính, sẽ gặp hai định 
 1. Thiết bị điện tử có khả năng thực thi các lệnh được giao cho nó
 2. Thiết bị tính toán
 
-Theo định nghĩa 1, máy tính sẽ bao gồm máy tính cá nhân, máy tính bảng, điện thoại, TV. Theo định nghĩa 2, máy tính sẽ bao gồm tất cả các thiết bị vừa được liệt kê cộng thêm nhiều thiết bị khác, bao gồm các thiệt bị không phải là điện tử như bàn tính.
+Theo định nghĩa 1, máy tính sẽ bao gồm máy tính cá nhân, máy tính bảng, điện thoại, TV. Theo định nghĩa 2, máy tính sẽ bao gồm tất cả các thiết bị vừa được liệt kê cộng thêm nhiều thiết bị khác, bao gồm các thiết bị không phải là điện tử như bàn tính.
 
 Định nghĩa 2 nghe có vẻ như hợp lý hơn. Trong tiếng Anh, máy tính là “computer”. "compute" là tính toán, vậy “computer” là thiết bị tính toán, nghe có vẻ hợp lý. Tuy nhiên, trong Tin học, người ta liên kết máy tính với định nghĩa 1 nhiều hơn.
 
@@ -65,9 +65,9 @@ Chẳng hạn như tiếng Việt, tùy vào địa phương mà người ta nó
 
 Vì chúng có những quy định riêng nên chúng cũng có các trình biên dịch riêng. Free Pascal có trình biên dịch riêng cùng tên, và Turbo Pascal và GNU Pascal cũng vậy.
 
-### Ta có thể gỡ lỗi với một trình biên tập mã không? Một trình biên dịch mã và một môi trường phát triển tích hợp khác nhau ở chỗ nào?
+### Ta có thể gỡ lỗi với một trình biên tập mã không? Một trình biên tập mã và một môi trường phát triển tích hợp khác nhau ở chỗ nào?
 Các trình biên tập mã ngày nay cũng có thể tích hợp chức năng của trình gỡ lỗi và trình biên dịch/thông dịch như môi trường phát triển tích hợp, cho dù là có sẵn hay phải cài như một phần tử mở rộng (extension). Sự khác nhau cơ bản nhất của một trình biên tập mã và một môi trường phát triển tích hợp là:
 
 Môi trường phát triển tích hợp tập trung vào sự phát triển của một chương trình dưới một ngôn ngữ nào đó, và tích hợp sẵn trình biên dịch/thông dịch và trình gỡ lỗi dành riêng cho ngôn ngữ nào đó. Còn trình biên tập mã sẽ đi hướng rộng hơn và hỗ trợ nhiều ngôn ngữ khác nhau, nhưng thường lại không tích hợp sẵn trình gỡ lỗi hay trình biên dịch/thông dịch nào cả.
 
-Lấy ví dụ, [Lazarus](http://www.lazarus-ide.org/) là môi trường phát triển tích hợp dành cho Free Pascal. Nó có phần để người lập trình viên chỉnh sửa mã Pascal, nó có tính năng tô màu cú pháp cho Pascal, và nó có tích hợp cả trình biên dịch Free Pascal và trình gỡ lỗi dành cho Free Pascal. Tuy nhiên, nếu bạn dùng một trình biên tập mã như Atom hay Visual Studio Code để viết mã Pascal, thì không những bạn phải tải một phần mở rộng để hỗ trợ việc tô màu cú pháp Pascal, mà lại còn phải tự mình tích hợp lấy trình biên dịch và trình gỡ lỗi, cũng như một số công cụ khác để giúp bạn viết chương trình Pascal. Đương nhiên, bạn cũng có thể viết chương trình Pascal trong một trình biên tập mã mà không cần nhưng thứ như trình biên dịch và các công cụ khác. Tuy nhiên, lúc đó việc phát triển một phần mềm Pascal, đặc biệt là phần mềm lớn, sẽ trở nên khó khăn.
+Lấy ví dụ, [Lazarus](http://www.lazarus-ide.org/) là môi trường phát triển tích hợp dành cho Free Pascal. Nó có phần để người lập trình viên chỉnh sửa mã Pascal, nó có tính năng tô màu cú pháp cho Pascal, và nó có tích hợp cả trình biên dịch Free Pascal và trình gỡ lỗi dành cho Free Pascal. Tuy nhiên, nếu bạn dùng một trình biên tập mã như Atom hay Visual Studio Code để viết mã Pascal, thì không những bạn phải tải một phần mở rộng để hỗ trợ việc tô màu cú pháp Pascal, mà lại còn phải tự mình tích hợp lấy trình biên dịch và trình gỡ lỗi, cũng như một số công cụ khác để giúp bạn viết chương trình Pascal. Đương nhiên, bạn cũng có thể viết chương trình Pascal trong một trình biên tập mã mà không cần những thứ như trình biên dịch và các công cụ khác. Tuy nhiên, lúc đó việc phát triển một phần mềm Pascal, đặc biệt là phần mềm lớn, sẽ trở nên khó khăn.
