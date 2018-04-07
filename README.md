@@ -7,7 +7,7 @@ Quyển sách "Sổ tay Pascal" này được biên tập bởi nhóm [42 utils]
 
 [Bắt đầu đọc cuốn sách](book/_intro.md)
 
-Lưu ý: Pascal được nói tới trong là Pascal phiên bản thường, không phải Object Pascal (Pascal hướng đối tượng).
+Lưu ý: Pascal được nói tới trong cuốn sách là Pascal phiên bản thường, không phải Object Pascal (Pascal hướng đối tượng).
 
 Đây là cuốn sách miễn phí và không chính thống, được tạo ra vì mục đích học tập và không liên kết với bất kì tổ chức, công ty chính thức nào về Pascal. Tất cả thương hiệu và nhãn hiệu đã đăng ký là tài sản của chủ sở hữu công ty tương ứng.
 
