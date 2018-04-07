@@ -12,6 +12,7 @@ Những người có tên được in đậm là thành viên của 42tm.
 
 ||Người tạo ra|Những người đã đóng góp|
 |---|---|---|
+|Lời nói đầu|Nguyễn Hoàng Dương|Nguyễn Hoàng Dương, Nguyễn Tuấn Dũng|
 |Chương 1|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng, Nguyễn Hoàng Dương|
 |Chương 2|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng, Nguyễn Hoàng Dương|
 |Chương 4|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng|
