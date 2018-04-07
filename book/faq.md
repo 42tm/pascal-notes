@@ -38,10 +38,10 @@ Bảng sau chứa một số ví dụ của một "máy tính".
             <td><a href="../resources/img/faq/desktop_computer.jpeg"><img src="../resources/img/faq/desktop_computer.jpeg" /></a></td>
         </tr>
         <tr>
-            <td><center>Máy tính<br />thiên văn cổ</center></td>
-            <td><center>Bàn tính</center></td>
-            <td><center>Máy tính xách tay</center></td>
-            <td><center>Máy tính để bàn</center></td>
+            <td align="center">Máy tính<br />thiên văn cổ</td>
+            <td align="center">Bàn tính</td>
+            <td align="center">Máy tính xách tay</td>
+            <td align="center">Máy tính để bàn</td>
         </tr>
         <tr>
             <td><a href="../resources/img/faq/supercomputer.jpg"><img src="../resources/img/faq/supercomputer.jpg" /></a></td>
@@ -50,10 +50,10 @@ Bảng sau chứa một số ví dụ của một "máy tính".
             <td><a href="../resources/img/faq/digital_watch.jpg"><img src="../resources/img/faq/digital_watch.jpg" /></a></td>
         </tr>
         <tr>
-            <td><center>Siêu máy tính</center></td>
-            <td><center>TV</center></td>
-            <td><center>Điện thoại di động</center></td>
-            <td><center>Đồng hồ điện tử</center></td>
+            <td align="center">Siêu máy tính</td>
+            <td align="center">TV</td>
+            <td align="center">Điện thoại di động</td>
+            <td align="center">Đồng hồ điện tử</td>
         </tr>
     </tbody>
 </table>
