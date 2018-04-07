@@ -1,15 +1,20 @@
-# Sổ tay Pascal
-## Credit
+# Công trạng
 
-### Chapter 1:
-- Nguyễn Tuấn Dũng (@dungwinux)
+## Những người đã đóng góp cho cuốn sách
+Những người có tên được in đậm là thành viên của 42tm.
 
-### Chapter 2:
-- Nguyễn Tuấn Dũng (@dungwinux)
-- Nguyễn Hoàng Dương (@novaglow)
+|STT|Tên|Địa chỉ thư điện tử|Tài khoản GitHub|Website cá nhân|
+|---|---|---|---|---|
+|1|**Nguyễn Tuấn Dũng**|ntddebugger@gmail.com|[dungwinux](http://github.com/dungwinux)|[Liên kết](http://dungwinux.github.io)|
+|2|**Nguyễn Hoàng Dương**|novakglow@gmail.com|[NOVAglow](http://github.com/NOVAglow)||
 
-### Chapter 4:
-- Nguyễn Tuấn Dũng (@dungwinux)
+## Đóng góp theo các phần của cuốn sách
 
-### Chapter 6:
-- Nguyễn Tuấn Dũng (@dungwinux)
+||Người tạo ra|Những người đã đóng góp|
+|---|---|---|
+|Chương 1|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng, Nguyễn Hoàng Dương|
+|Chương 2|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng, Nguyễn Hoàng Dương|
+|Chương 4|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng|
+|Chương 6|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng|
+|Những câu hỏi thường gặp|Nguyễn Hoàng Dương|Nguyễn Hoàng Dương|
+|Bảng chú giải|Nguyễn Hoàng Dương|Nguyễn Hoàng Dương|
