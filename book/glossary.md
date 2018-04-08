@@ -1,12 +1,16 @@
-# Bảng chú giải các thuật ngữ
+Bảng chú giải các thuật ngữ
+===========================
+
 Dưới đây là các thuật ngữ xuất hiện trong sách, được trình bày theo kiểu từ điển Việt-Anh-Việt.
 Lưu ý, định nghĩa của các thuật ngữ là định nghĩa được sử dụng trong ngành Tin học và khoa học máy tính.
 Ở trong các ngành khác, các thuật ngữ có thể được hiểu theo cách khác, cho dù cách hiểu đó
 có gần với cách hiểu trong Tin học hay thậm chí là không liên quan gì hết.
 
-## Các thuật ngữ Tin học cơ bản
+Các thuật ngữ Tin học cơ bản
+----------------------------
+
 |Thuật ngữ (tiếng Việt)|Thuật ngữ (tiếng Anh)|Định nghĩa|
-|          ---         |         ---         |    ---   |
+|:---:|:---:|---|
 | máy tính | computer | Thiết bị mà có khả năng làm theo các lệnh/hướng dẫn được cho sẵn. |
 | tệp tin | file | Đơn vị cơ bản lưu trữ thông tin trên máy tính. |
 | thư mục | folder | Đơn vị đóng vai trò như là ngăn chứa để chứa tệp tin và các thư mục khác. |
@@ -14,13 +18,17 @@ có gần với cách hiểu trong Tin học hay thậm chí là không liên qu
 | phần cứng | hardware | Các phần tử cơ khí của máy tính, ví dụ như CPU, thanh RAM, hay bàn phím. |
 | giao diện người dùng | user interface | Nơi mà sự tương tác giữa máy tính và người dùng máy tính xảy ra. |
 
-## Các thuật ngữ Toán học
-|Thuật ngữ (tiếng Việt)|Thuật ngữ (tiếng Anh)|Định nghĩa|
-|          ---         |         ---         |    ---   |
+Các thuật ngữ Toán học
+----------------------
 
-## Các thuật ngữ liên quan hơn đến lập trình
 |Thuật ngữ (tiếng Việt)|Thuật ngữ (tiếng Anh)|Định nghĩa|
-|          ---         |         ---         |    ---   |
+|:---:|:---:|---|
+
+Các thuật ngữ liên quan hơn đến lập trình
+-----------------------------------------
+
+|Thuật ngữ (tiếng Việt)|Thuật ngữ (tiếng Anh)|Định nghĩa|
+|:---:|:---:|---|
 | chương trình máy tính | computer program | Chương trình chứa các lệnh để máy tính thực thi. Có hai dạng là dạng mã nguồn và dạng có thể thực thi. |
 | mã nguồn | source code | Các câu lệnh được viết trong một ngôn ngữ lập trình nào đó mà con người có thể đọc được. |
 | lệnh có thể thực thi | executable | Các câu lệnh được viết bằng ngôn ngữ máy mà máy tính có thể thực thi được. |
