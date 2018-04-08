@@ -37,10 +37,26 @@ Bảng sau chứa một số ví dụ của một "máy tính".
     </thead>
     <tbody>
         <tr>
-            <td><a href="../resources/img/faq/antikythera.jpg"><img src="../resources/img/faq/antikythera.jpg" /></a></td>
-            <td><a href="../resources/img/faq/abacus.jpg"><img src="../resources/img/faq/abacus.jpg" /></a></td>
-            <td><a href="../resources/img/faq/laptop.jpeg"><img src="../resources/img/faq/laptop.jpeg" /></a></td>
-            <td><a href="../resources/img/faq/desktop_computer.jpeg"><img src="../resources/img/faq/desktop_computer.jpeg" /></a></td>
+            <td>
+                <a href="http://raw.githubusercontent.com/42tm/pascal-notes/master/resources/img/faq/antikythera.jpg">
+                    <img src="../resources/img/faq/antikythera.jpg" alt="Máy tính thiên văn Antikythera của Hy Lạp cổ đại" />
+                </a>
+            </td>
+            <td>
+                <a href="http://raw.githubusercontent.com/42tm/pascal-notes/master/resources/img/faq/abacus.jpg">
+                    <img src="../resources/img/faq/abacus.jpg" alt="Bàn tính" />
+                </a>
+            </td>
+            <td>
+                <a href="http://raw.githubusercontent.com/42tm/pascal-notes/master/resources/img/faq/laptop.jpeg">
+                    <img src="../resources/img/faq/laptop.jpeg" alt="Máy tính xách tay" />
+                </a>
+            </td>
+            <td>
+                <a href="http://raw.githubusercontent.com/42tm/pascal-notes/master/resources/img/faq/desktop_computer.jpeg">
+                    <img src="../resources/img/faq/desktop_computer.jpeg" alt="Máy tính để bàn" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td align="center">Máy tính<br />thiên văn cổ</td>
@@ -49,10 +65,26 @@ Bảng sau chứa một số ví dụ của một "máy tính".
             <td align="center">Máy tính để bàn</td>
         </tr>
         <tr>
-            <td><a href="../resources/img/faq/supercomputer.jpg"><img src="../resources/img/faq/supercomputer.jpg" /></a></td>
-            <td><a href="../resources/img/faq/tv.jpeg"><img src="../resources/img/faq/tv.jpeg" /></a></td>
-            <td><a href="../resources/img/faq/mobile_phone.jpeg"><img src="../resources/img/faq/mobile_phone.jpeg" /></a></td>
-            <td><a href="../resources/img/faq/digital_watch.jpg"><img src="../resources/img/faq/digital_watch.jpg" /></a></td>
+            <td>
+                <a href="../resources/img/faq/supercomputer.jpg">
+                    <img src="../resources/img/faq/supercomputer.jpg" alt="Siêu máy tính Blue Gene/P của IBM" />
+                </a>
+            </td>
+            <td>
+                <a href="../resources/img/faq/tv.jpeg">
+                    <img src="../resources/img/faq/tv.jpeg" alt="Ti vi" />
+                </a>
+            </td>
+            <td>
+                <a href="../resources/img/faq/mobile_phone.jpeg">
+                    <img src="../resources/img/faq/mobile_phone.jpeg" alt="Điện thoại di động thông minh" />
+                </a>
+            </td>
+            <td>
+                <a href="../resources/img/faq/digital_watch.jpg">
+                    <img src="../resources/img/faq/digital_watch.jpg" alt="Đồng hồ điện tử thông minh" />
+                </a>
+            </td>
         </tr>
         <tr>
             <td align="center">Siêu máy tính</td>
