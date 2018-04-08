@@ -30,7 +30,7 @@ Trong giao tiếp ngày thường, khi mọi người nói đến máy tính, h�
 
 Dùng định nghĩa nào là tùy bạn, đừng để mọi người bị nhầm lẫn là được.
 
-Bảng sau chứa một số ví dụ của một "máy tính". Nhấp chuột trái lên ảnh để có ảnh to hơn.
+Bảng sau chứa một số ví dụ về máy tính. Nhấp chuột trái lên ảnh để có ảnh to hơn.
 
 <table>
     <thead>
