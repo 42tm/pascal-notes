@@ -1,4 +1,4 @@
-Program arrayDynDemo;
+Program ArrayDynDemo;
 
 Var 
     A :   array Of Cardinal;

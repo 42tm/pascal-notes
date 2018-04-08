@@ -1,5 +1,5 @@
 
-Program arrayLitrDemo;
+Program ArrayLitrDemo;
 
 Var 
     // Khởi tạo một mảng tĩnh
