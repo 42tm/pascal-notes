@@ -1,7 +1,10 @@
-# Các câu hỏi thường gặp
+Các câu hỏi thường gặp
+======================
+
 Các câu hỏi mà các bạn đọc có thể sẽ thắc mắc sẽ được giải đáp tại đây. Chúng được phân loại theo chương. Chúng tôi không giải đáp ngay trong chương mà giải đáp ở một trang riêng như thế này là vì nếu cho phần giải đáp đi kèm với chương, chương sẽ trở nên dài.
 
-## Mục lục
+Mục lục
+-------
 1. [Chương 1](#chương-1)
 2. [Chương 2](#chương-2)
 3. [Chương 3](#chương-3)
@@ -9,9 +12,11 @@ Các câu hỏi mà các bạn đọc có thể sẽ thắc mắc sẽ được 
 5. [Chương 5](#chương-5)
 6. [Chương 6](#chương-6)
 
-## Chương 1
+Chương 1
+--------
 
 ### Từ “máy tính” có thể được hiểu như thế nào?
+
 Trên mạng, nếu tra định nghĩa của máy tính, sẽ gặp hai định nghĩa được sử dụng nhiều nhất như sau:
 
 1. Thiết bị điện tử có khả năng thực thi các lệnh được giao cho nó
@@ -59,6 +64,7 @@ Bảng sau chứa một số ví dụ của một "máy tính".
 </table>
 
 ### Free Pascal, Turbo Pascal và GNU Pascal khác nhau ở chỗ nào?
+
 Free Pascal, Turbo Pascal và GNU Pascal đều là những biến thể của ngôn ngữ Pascal. Điều này nghĩa là sao vậy?
 
 Chẳng hạn như tiếng Việt, tùy vào địa phương mà người ta nói một thứ gì đó theo cách khác nhau. Ví dụ như người miền Bắc nói là "quả táo", người miền Nam nói là "trái táo". Vậy tiếng Việt thì có nhiều tiếng địa phương. Biến thể của một ngôn ngữ lập trình cũng có thể được hiểu như là một tiếng địa phương của một ngôn ngữ giao tiếp vậy. Free Pascal, Turbo Pascal, và GNU Pascal, mỗi biến thể đều theo những quy định chung của ngôn ngữ Pascal, nhưng chúng cũng có những quy định riêng.
@@ -66,6 +72,7 @@ Chẳng hạn như tiếng Việt, tùy vào địa phương mà người ta nó
 Vì chúng có những quy định riêng nên chúng cũng có các trình biên dịch riêng. Free Pascal có trình biên dịch riêng cùng tên, và Turbo Pascal và GNU Pascal cũng vậy.
 
 ### Ta có thể gỡ lỗi với một trình biên tập mã không? Một trình biên tập mã và một môi trường phát triển tích hợp khác nhau ở chỗ nào?
+
 Các trình biên tập mã ngày nay cũng có thể tích hợp chức năng của trình gỡ lỗi và trình biên dịch/thông dịch như môi trường phát triển tích hợp, cho dù là có sẵn hay phải cài như một phần tử mở rộng (extension). Sự khác nhau cơ bản nhất của một trình biên tập mã và một môi trường phát triển tích hợp là:
 
 Môi trường phát triển tích hợp tập trung vào sự phát triển của một chương trình dưới một ngôn ngữ nào đó, và tích hợp sẵn trình biên dịch/thông dịch và trình gỡ lỗi dành riêng cho ngôn ngữ nào đó. Còn trình biên tập mã sẽ đi hướng rộng hơn và hỗ trợ nhiều ngôn ngữ khác nhau, nhưng thường lại không tích hợp sẵn trình gỡ lỗi hay trình biên dịch/thông dịch nào cả.
