@@ -24,7 +24,7 @@ Bạn có thể làm rất nhiều thứ trên máy tính. Soạn thảo văn b�
 
 Một chương trình máy tính có hai dạng: dạng mã nguồn (source code) và dạng có thể thực thi (executable). Nói chung thì sự khác biệt giữa hai dạng này là: dạng mã nguồn thì có thể được đọc bởi các lập trình viên mà biết ngôn ngữ lập trình của mã nguồn đó, còn dạng có thể thực thi là dạng gồm số 1 và số 0 mà chỉ máy tính có thể hiểu, còn ngay cả các lập trình viên cũng bó tay. Khi bạn viết “code”, thì tức là bạn viết mã nguồn.
 - - -
-Ví dụ: Một chương trình in ra dòng chữ “Hello, World!” viết bằng ngôn ngữ Python  
+Ví dụ: Một chương trình in ra dòng chữ “Hello, World!” viết bằng ngôn ngữ Python
 Dạng mã nguồn:
 ```python
 print(“Hello, World!”)
@@ -81,7 +81,7 @@ Ngôn ngữ Pascal cũng có một số môi trường phát triển tích hợp
 ## Viết chương trình Pascal đầu tiên
 Chương trình Pascal chúng ta viết đầu tiên sẽ là chương trình Hello World. Chương trình Hello World là một chương trình chỉ in ra  dòng chữ “Hello, World!”, không có gì hơn. Vì đây là chương trình đơn giản nhất với mọi ngôn ngữ lập trình, nên việc viết chương trình Hello World lấy làm chương trình đầu tiên khi học một ngôn ngữ lập trình mới đã trở thành một “truyền thống”.
 
-Chúng ta hãy cùng viết chương trình Hello World bằng ngôn ngữ Pascal!  
+Chúng ta hãy cùng viết chương trình Hello World bằng ngôn ngữ Pascal!
 Mở một trình biên tập mã, và viết những dòng lệnh sau:
 ```pascal
 Program HelloWorld;
@@ -93,31 +93,31 @@ End.
 Lưu thành một tệp tin, đặt tên là “_hello.pas_".  
 > **Lưu ý**: phần mở rộng của tệp tin chứa mã nguồn ngôn ngữ Pascal là “pas”.
 
-### Phân tích mã nguồn của chương trình Hello World  
+### Phân tích mã nguồn của chương trình Hello World
 ```pascal
 Program HelloWorld;
 ```
-Dòng này giúp trình biên dịch biết rằng tên chương trình của bạn là HelloWorld. Thông thường, nếu bạn chỉ viết một tệp thì dòng này có vẻ không cần thiết nhưng khi bạn chia mã nguồn thành các tệp nhỏ thì bạn bắt buộc phải viết dòng này để phân biệt.  
+Dòng này giúp trình biên dịch biết rằng tên chương trình của bạn là HelloWorld. Thông thường, nếu bạn chỉ viết một tệp thì dòng này có vẻ không cần thiết nhưng khi bạn chia mã nguồn thành các tệp nhỏ thì bạn bắt buộc phải viết dòng này để phân biệt.
 ```pascal
 Begin
 ```
-Đây là dòng để bắt đầu chương trình chính. Sau này khi học đến chương trình con, bạn sẽ biết rằng từ khóa `Begin` cũng được dùng để bắt đầu chương trình con.  
+Đây là dòng để bắt đầu chương trình chính. Sau này khi học đến chương trình con, bạn sẽ biết rằng từ khóa `Begin` cũng được dùng để bắt đầu chương trình con.
 ```pascal
 Writeln('Hello, World!');
 ```
-Dòng này sử dụng thủ tục `Writeln()` để in dòng chữ “Hello, World!” ra màn hình. Lưu ý rằng “Hello, World!” được đặt trong hai dấu phẩy trên (').  
+Dòng này sử dụng thủ tục `Writeln()` để in dòng chữ “Hello, World!” ra màn hình. Lưu ý rằng “Hello, World!” được đặt trong hai dấu phẩy trên (').
 ```pascal
 End.
 ```
-Đây là dòng để kết thúc chương trình chính. Tương tự như từ khóa `Begin`, từ khóa `End` cũng được dùng để kết thúc chương trình con mà sau này chúng ta sẽ động đến.  
+Đây là dòng để kết thúc chương trình chính. Tương tự như từ khóa `Begin`, từ khóa `End` cũng được dùng để kết thúc chương trình con mà sau này chúng ta sẽ động đến.
 
 > Cần lưu ý rằng, đối với ngôn ngữ lập trình Pascal, cũng như hầu hết các ngôn ngữ lập trình khác, cần phải tuân theo các quy tắc đã được định ra một cách chặt chẽ. Ví dụ, bạn phải có một dấu chấm phẩy (`;`) ở cuối các câu lệnh Pascal (ngoại trừ các từ khóa như `Begin`, `If`, `else`). Sau từ khóa `End` mà kết thúc chương trình chính, cần phải có dấu chấm. Nếu thiếu dấu chấm này, hay không tuân theo bất cứ quy tắc nào, trình biên dịch sẽ thông báo chương trình lỗi và không cho ra chương trình dạng có thể thực thi nữa.
 
 ## Biên dịch chương trình Pascal
 Chúng ta đã viết chương trình Hello World bằng cách viết mã Pascal. Bây giờ chúng ta cần biên dịch nó thành tệp nhị phân (tệp gồm dãy BIT chứa số 1 và số 0) để máy tính có thể hiểu và chạy chương trình.
 ### Trên hệ điều hành Windows
-Lưu tệp tin _hello.pas_ của bạn (chứa chương trình Hello World) vào ổ C. Ngay trong ổ C, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#chú-giải)) bằng cách nhấn tổ hợp phím Win + R, sau đó gõ “`cmd`”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.  
-![Cửa sổ Command Prompt](../resources/img/cmd_window.png)  
+Lưu tệp tin _hello.pas_ của bạn (chứa chương trình Hello World) vào ổ C. Ngay trong ổ C, chứ không trong thư mục nào hết. Sau đó, mở cửa sổ Command Prompt ([3](#chú-giải)) bằng cách nhấn tổ hợp phím Win + R, sau đó gõ “`cmd`”, sau đó nhấn phím Enter. Một cửa sổ như sau sẽ hiện lên.
+![Cửa sổ Command Prompt](../resources/img/cmd_window.png)
 Trong cửa sổ đó, gõ "`C:`", nhấn Enter, sau đó gõ "`fpc hello.pas`", rồi nhấn Enter. Như vậy là trình biên dịch Free Pascal sẽ cho ra một tệp tin mới có tên là _hello.exe_ trong cùng thư mục .
 ### Trên một bản phân phối của GNU/Linux
 Lưu tệp tin _hello.pas_ tại địa chỉ HOME của bạn (ví dụ: _/home/blaisepascal/_). Sau đó, mở một cửa sổ terminal ([3](#chú-giải)). Trong cửa sổ đó, gõ "`cd ~`", nhấn Enter, sau đó gõ "`fpc hello.pas`", rồi nhấn Enter. Trình biên dịch Free Pascal sẽ tạo một tệp mới tên là _hello_, và đó chính là dạng có thể thực thi của chương trình Hello World chúng ta đã viết (bạn có thể kiểm chứng bằng cách gõ lệnh `ls` - lệnh này theo mặc định sẽ liệt kê các tệp tin và thư mục không bị ẩn trong thư mục hiện hành).
@@ -155,11 +155,13 @@ Begin
 End.
 ```
 
+Lưu ý, ghi chú cần phải được viết bằng tiếng Anh, ngay cả khi người lập trình viên không phải là người nói tiếng Anh bản địa. Bạn chỉ nên viết ghi chú bằng ngôn ngữ khác ngoài tiếng Anh khi mà bạn cực kì chắc chắn rằng mã nguồn của bạn sẽ không bao giờ được đọc bởi một người không biết ngôn ngữ của ghi chú của bạn.
+
 - - -
 ## Chú giải
 1. **Tô sáng cú pháp (syntax highlighting)** : Là một tính năng của các trình biên tập mã dùng để hiển thị mã với các màu khác nhau cho các thể loại cú pháp khác nhau.
 2. **Trình gỡ lỗi** : Là một phần mềm giúp lập trình viên phát hiện lỗi và gỡ lỗi trong chương trình của mình.
 3. **Command Prompt**, **Terminal** : Nói chung, Command Prompt là cửa sổ cho phép bạn gõ lệnh để điều khiển máy tính trong hệ điều hành Windows. Terminal là cửa sổ có chức năng tương tự nhưng là trên các hệ điều hành tựa Unix (như macOS hay các bản phân phối của GNU/Linux).
 - - -
-[<< Lời nói đầu](_intro.md)  
+[<< Lời nói đầu](_intro.md)
 [Chương 2 >>](chapter02.md)
