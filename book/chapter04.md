@@ -15,7 +15,7 @@ Mục lục
 3. [Giá trị mặc định](#giá-trị-mặc-định)
 4. [Biến tham số](#biến-tham-số)
 5. [Nạp chồng](#nạp-chồng)
-6. [Đệ quy](#đệ-quy)
+6. [Đệ quy](#Đệ-quy)
 7. [Quay lui](#quay-lui)
 
 Hàm
