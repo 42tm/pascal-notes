@@ -1,4 +1,4 @@
-Program arrayDemo;
+Program ArrayDemo;
 
 Var 
     i:   integer;
