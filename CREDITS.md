@@ -17,5 +17,5 @@ Những người có tên được in đậm là thành viên của 42tm.
 |Chương 2|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng, Nguyễn Hoàng Dương|
 |Chương 4|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng|
 |Chương 6|Nguyễn Tuấn Dũng|Nguyễn Tuấn Dũng|
-|Những câu hỏi thường gặp|Nguyễn Hoàng Dương|Nguyễn Hoàng Dương|
+|Những câu hỏi thường gặp|Nguyễn Hoàng Dương|Nguyễn Hoàng Dương, Nguyễn Tuấn Dũng|
 |Bảng chú giải|Nguyễn Hoàng Dương|Nguyễn Hoàng Dương|
