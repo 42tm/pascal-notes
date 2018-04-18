@@ -4,7 +4,7 @@
 Những người có tên được in đậm là thành viên của 42tm.
 
 |STT|Tên|Địa chỉ thư điện tử|Tài khoản GitHub|Website cá nhân|
-|---|---|---|---|---|
+|:---:|:---:|:---:|:---:|:---:|
 |1|**Nguyễn Tuấn Dũng**|ntddebugger@gmail.com|[dungwinux](http://github.com/dungwinux)|[Liên kết](http://dungwinux.github.io)|
 |2|**Nguyễn Hoàng Dương**|novakglow@gmail.com|[NOVAglow](http://github.com/NOVAglow)||
 
