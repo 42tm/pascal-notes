@@ -1,4 +1,6 @@
-# Lời nói đầu
+**Lời nói đầu**
+===============
+
 Xin chào các bạn. Cảm ơn các bạn đã xem qua cuốn sách.
 
 Hiện nay, lập trình là sở thích của hàng triệu người trên thế giới. Các ứng dụng chúng ta dùng trên máy tính, các trang web chúng ta ghé thăm hàng ngày, những trò chơi điện tử chúng ta chơi với bạn bè, và các thiết bị điện tử khác như điện thoại, ti vi, tủ lạnh thông minh,... đều hoạt động một phần là nhờ công của những lập trình viên và mỗi ngày càng có nhiều người học lập trình. Tuy nhiên, một câu hỏi mà những người muốn học thường đặt ra là, _"Nên học ngôn ngữ lập trình nào đầu tiên?"_
@@ -10,7 +12,8 @@ Ngôn ngữ Pascal sử dụng các từ khóa nhiều hơn các ký tự, ví d
 Đây là cuốn sách tập trung vào cách sử dụng, cách viết một chương trình Pascal cùng với cách sử dụng cú pháp có trong Pascal. Hy vọng quyển sách _Sổ tay Pascal_ này là một quyển sách hữu ích cho bạn đọc.
 
 - - -
-## **Mục Lục**
+**Mục Lục**
+-----------
 
 [Chương 1 >>](chapter01.md)
 

@@ -1,20 +1,25 @@
-# Chương 4: Chương trình con
+Chương 4: Chương trình con
+==========================
+
 Trong chương này, bạn sẽ biết được:
 - Hàm, thủ tục là gì
 - Cách sử dụng hàm và thủ tục
 - Các thao tác với hàm và thủ tục
 - Ứng dụng của hàm và thủ tục
 
-## Mục lục
+Mục lục
+-------
+
 1. [Hàm](#hàm)
 2. [Thủ tục](#thủ-tục)
 3. [Giá trị mặc định](#giá-trị-mặc-định)
 4. [Biến tham số](#biến-tham-số)
 5. [Nạp chồng](#nạp-chồng)
-6. [Đệ quy](#đệ-quy)
+6. [Đệ quy](#Đệ-quy)
 7. [Quay lui](#quay-lui)
 
-## Hàm
+Hàm
+---
 
 Hàm (function) là thứ mà bản thân nó chứa các khối lệnh để hoàn thành một nhiệm vụ cụ thể. Các hàm thường lấy vào dữ liệu và trả lại một kết quả. Một khi được viết, hàm có thể được dùng đi dùng lại nhiều lần, có thể được gọi từ hàm khác hoặc thậm chí gọi từ trong chính nó.
 
@@ -40,7 +45,8 @@ end.
 
 Kết quả của hàm được lưu trong biến có tên chính là tên của hàm. Như trong câu lệnh `Add := c;`, giá trị của `c`, tức tổng của `a` và `b`, được gán vào biến `Add`, là kết quả hàm trả về.
 
-## Thủ tục
+Thủ tục
+-------
 
 Thủ tục (procedure) cũng tương tự như hàm, nhưng nó chỉ lấy vào dữ liệu và không trả lại bất cứ thứ gì.
 
@@ -61,27 +67,31 @@ begin
 end.
 ```
 
-## Giá trị mặc định
+Giá trị mặc định
+----------------
 
 Trong hàm và thủ tục, đôi khi bạn cần nhập vào giá trị. Trong trường hợp không có giá trị nào hoặc giá trị không thỏa mãn, giá trị mặc định sẽ được dùng.
+
 ```pascal
 program defValueDemo;
- 
+
 const
     MAX = 50;
- 
+
 procedure ReadNum(i : integer = MAX);
 begin
-    writeln('Input Number : ', i);  
-end;  
+    writeln('Input Number : ', i);
+end;
 
-begin  
+begin
     ReadNum(20); // 20
     ReadNum;     // 50
 end.
 ```
 
-## Biến tham số
+Biến tham số
+------------
+
 Trong một số trường hợp, bạn cần xử lý trực tiếp trên biến số mà không qua bất cứ biến số trung gian nào. Lúc này chúng ta sử dụng từ khóa `var` hoặc `out`.
 
 ```pascal
@@ -94,15 +104,15 @@ begin
 end;
 
 procedure ProcB(out b : integer);
-begin  
+begin
     b := 2;
     writeln('b = ', b);
 end;
 
-var  
+var
     c, d : integer;
- 
-begin  
+
+begin
     ProcA(c); //  a = 2
     ProcB(d); //  b = 2
 end.
@@ -110,7 +120,8 @@ end.
 
 Ở phía trên, ta có thể thấy `ProcA` và `ProcB` đều trả về kết quả như nhau. Khi chạy ProcA, trình biên dịch sẽ cảnh báo bạn rằng thông số bạn nhập vào ( biến số `c` ) chưa gán giá trị trước đó. Tuy nhiên hàm ProcB cho trình biên dịch biết thêm thông tin rằng thông số nhập vào không cần phải gán giá trị trước.
 
-## Nạp chồng
+Nạp chồng
+---------
 
 Theo định nghĩa, bạn có thể khai báo nhiều hơn một lần một hàm/thủ tục, với mỗi lần nhận tham số khác nhau. Danh sách tham số phải khác ít nhất một trong các kiểu phần tử của nó. Nói một cách đơn giản, với một hàm/thủ tục, bạn có thể chia nhiều trường hợp để có thể xử lý nhiều kiểu dữ liệu nhập vào khác nhau.
 
@@ -119,22 +130,22 @@ program overloadDemo;
 
 procedure Msg(i : integer);
 begin
-  writeln('Messenge from program: ', i);  
+  writeln('Messenge from program: ', i);
 end;
 
-procedure Msg(s : string);  
-begin  
-  writeln('Messenge from program: ', s);  
-end;
-
-procedure Msg(usr : string; s : string);  
+procedure Msg(s : string);
 begin
-  writeln('Messenge from ', usr, ': ', s);  
+  writeln('Messenge from program: ', s);
 end;
 
-var  
-  c, d : integer;  
- 
+procedure Msg(usr : string; s : string);
+begin
+  writeln('Messenge from ', usr, ': ', s);
+end;
+
+var
+  c, d : integer;
+
 begin
     Msg(12);                // Messenge from program: 12
     Msg('Hello World');     // Messenge from program: Hello World
@@ -144,7 +155,9 @@ end.
 
 Khi biên dịch, trình biên dịch sẽ tìm hàm/thủ tục phù hợp với dữ liệu nhập vào. Chẳng hạn `12` trong `Msg(12);` tương ứng với `Msg(integer);`
 
-## Đệ quy
+Đệ quy
+------
+
 Nghe qua, bạn có thể nghĩ tới việc lặp lại giống như `for .. to  .. do` hay `while .. do` hoặc `repeat .. until`. Nhưng khi lặp lại, bạn cần nhập nhiều tham số (> 10) và chúng luôn thay đổi và phụ thuộc nhiều, khi đó bạn sẽ sử dụng đệ quy.
 
 ```pascal
@@ -170,8 +183,11 @@ end.
 
 > Đọc thêm về [Đệ quy](https://vi.wikipedia.org/wiki/%C4%90%E1%BB%87_quy)
 
-## Quay lui
+Quay lui
+--------
+
 Như chúng ta đã biết, sức mạnh máy tính ở chỗ hiệu năng tính toán của nó. Chẳng hạn CPU 3,2 GHz đem lại khả năng xử lý ~ 3 200 000 chu trình trên giây. Backtrack hay quay lui là một ứng dụng của đệ quy cho phép bạn thử hàng loạt các trường hợp. Sau đây là ví dụ của quay lui viết trong Pascal.
+
 ```pascal
 program backtrack;
 var
@@ -195,6 +211,7 @@ begin
     Count(0, 0);
 end.
 ```
+
 Chương trình trên về cơ bản in ra các số có `n` chữ số, mỗi chữ số trong khoảng `0 ... k`. Kết quả được in ra trên màn hình.
 > Đọc thêm về [Backtrack](https://vi.wikipedia.org/wiki/Quay_lui_(khoa_h%E1%BB%8Dc_m%C3%A1y_t%C3%ADnh))
 - - -
