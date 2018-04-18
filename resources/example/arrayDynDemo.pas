@@ -1,17 +1,27 @@
-
-Program arrayDynDemo;
+Program ArrayDynDemo;
 
 Var 
     A :   array Of Cardinal;
-    n :   Integer;
+    i, t, ti, n :   Integer;
+    num:   Cardinal;
 
 Begin
-    readln(n);
-    // Đếm từ 0
-    Setlength( A, n );
-    For i:=0 To n Do
-        readln( a[i] );
+    readln(t);
+    // Số lần nhập mảng
 
-    For i:=n Downto 0 Do
-        write( a[i],' ' );
+    For ti := 1 To t Do
+    Begin
+        readln(n);
+        // Đếm từ 0
+        Setlength( A, n );
+
+        For i := 0 To n - 1 Do
+            read( A[i] );
+
+        For num In A Do
+            write( num,' ' );
+        // In n phần tử có trong mảng
+
+        writeln();
+    End;
 End.
