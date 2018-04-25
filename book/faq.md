@@ -146,7 +146,7 @@ Thực ra, tệp tin mã nguồn Pascal không nhất thiết phải có phần 
 
 ### Nếu biên dịch một mã nguồn Pascal trên hệ điều hành Windows, thì ta có thể đem chương trình đã được biên dịch sang một hệ điều hành khác để chạy chương trình đó không?
 
-Không.
+Không. Ở mỗi hệ điều hành, định dạng tệp thực thi của chúng khác hẳn nhau. Chẳng hạn, GNU/Linux hầu như sử dụng định dạng ELF trong khi Windows sử dụng định dạng PE. Mỗi định dạng được tối ưu cho việc gọi thư viện, API cho hệ điều hành của nó. Mà mỗi hệ điều hành có nhân và thư viện khác nhau nên việc đem thẳng chương trình biên dịch sang hệ điều hành khác trên lý thuyết là không thể. Nên nếu bạn muốn đem chương trình được biên dịch cho hệ điều hành này đem chạy trên hệ điều hành khác, bạn phải giả lập hoặc dịch tất cả các lệnh gọi API của chương trình. Nó giống như việc ngôn ngữ mẹ đẻ của bạn là Tiếng Việt, và bạn đang học Tiếng Anh, bảng chữ cái là định dạng tệp thực thi, và API là vốn từ vựng của bạn. 
 
 ### Command Prompt và Terminal chính xác là những cái gì? `C:` là gì? `cd` là gì? `ls` là gì? `fpc` là gì?
 

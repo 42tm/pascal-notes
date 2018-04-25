@@ -126,31 +126,46 @@ Chúng ta sẽ xem qua chương trình mẫu cùng với hàm `SetLength()`
 ```pascal
 Program arrayDynDemo;
 
-Var
-    A : array of Cardinal;
-    n : Integer;
+Var 
+    A :   array Of Cardinal;
+    i, t, ti, n :   Integer;
+    num:   Cardinal;
 
-begin
-    readln(n);
-    // Đếm từ 0
-    Setlength( A, n );
-    For i:=0 To n Do
-        readln( a[i] );
+Begin
+    readln(t);
+    // Số lần nhập mảng
 
-    For i:=n Downto 0 Do
-        write( a[i],' ' );
-end.
+    For ti := 1 To t Do
+    Begin
+        readln(n);
+        // Đếm từ 0
+        Setlength( A, n );
+
+        For i := 0 To n - 1 Do
+            read( A[i] );
+
+        For num In A Do
+            write( num,' ' );
+        // In n phần tử có trong mảng
+
+        writeln();
+    End;
+End.
 ```
 
 Giả sử, với input sau:
 ```
+2
 5
 10 2 3 4 5
+2
+3 4
 ```
 
 Thì kết quả của chương trình là:
 ```
-5 4 3 2 10
+10 2 3 4 5
+3 4
 ```
 
 Thế nó khác gì so với mảng tĩnh ? Khi lập trình với input số nguyên, nhiều người sẽ lập tức nghĩ tới số rất to và khởi tạo mảng có độ dài rất lớn (10000 chẳng hạn). Tuy nhiên, nhỡ người dùng lại nhập số rất nhỏ (5) ? Khi đó, chương trình vẫn sẽ khởi tạo 10000 vị trí trong bộ nhớ và như thế chương trình sẽ dùng thừa rất nhiều bộ nhớ. Vì thế, chúng ta phải sử dụng mảng động.
