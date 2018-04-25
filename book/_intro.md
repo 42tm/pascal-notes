@@ -9,7 +9,7 @@ Có rất nhiều ngôn ngữ lập trình để chọn làm ngôn ngữ vỡ l�
 
 Ngôn ngữ Pascal sử dụng các từ khóa nhiều hơn các ký tự, ví dụ như `Begin`, `End`, `If`, `then`, `else`, `repeat`. Vì thế, đọc một chương trình được viết bằng ngôn ngữ Pascal sẽ giống như đọc một bài văn hơn so với các chương trình được viết bằng các ngôn ngữ khác. Khối các câu lệnh được bắt đầu với từ khóa `Begin` và kết thúc với từ khóa `End` rất rõ ràng. Đặc biệt, người sử dụng ngôn ngữ Pascal không cần phải lo việc các từ khóa có viết hoa hay không vì Pascal không phân biệt chữ hoa và chữ thường đối với các câu lệnh và từ khóa của nó.
 
-Đây là cuốn sách tập trung vào cách sử dụng, cách viết một chương trình Pascal cùng với cách sử dụng cú pháp có trong Pascal. Hy vọng quyển sách _Sổ tay Pascal_ này là một quyển sách hữu ích cho bạn đọc.
+Đây là cuốn sách tập trung vào cách sử dụng, cách viết một chương trình Pascal cùng với cách sử dụng cú pháp có trong Pascal. Hy vọng quyển sách _Pascal Cơ Bản_ này là một quyển sách hữu ích cho bạn đọc.
 
 - - -
 **Mục Lục**
