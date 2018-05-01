@@ -12,11 +12,10 @@ Mục lục
 
 1. [Hàm](#hàm)
 2. [Thủ tục](#thủ-tục)
-3. [Giá trị mặc định](#giá-trị-mặc-định)
-4. [Biến tham số](#biến-tham-số)
-5. [Nạp chồng](#nạp-chồng)
-6. [Đệ quy](#Đệ-quy)
-7. [Quay lui](#quay-lui)
+3. [Biến tham số](#biến-tham-số)
+4. [Nạp chồng](#nạp-chồng)
+5. [Đệ quy](#Đệ-quy)
+6. [Quay lui](#quay-lui)
 
 Hàm
 ---
@@ -64,28 +63,6 @@ end;
 begin
     a := 90;
     Print(a);   // 90
-end.
-```
-
-Giá trị mặc định
-----------------
-
-Trong hàm và thủ tục, đôi khi bạn cần nhập vào giá trị. Trong trường hợp không có giá trị nào hoặc giá trị không thỏa mãn, giá trị mặc định sẽ được dùng.
-
-```pascal
-program defValueDemo;
-
-const
-    MAX = 50;
-
-procedure ReadNum(i : integer = MAX);
-begin
-    writeln('Input Number : ', i);
-end;
-
-begin
-    ReadNum(20); // 20
-    ReadNum;     // 50
 end.
 ```
 
