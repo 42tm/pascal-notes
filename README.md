@@ -4,6 +4,8 @@ Pascal Cơ Bản
 Giới thiệu
 ----------
 
+<img src="logo.png" align="left"/>
+
 Quyển sách "Pascal Cơ Bản" này được biên tập bởi nhóm
 [42tm](http://github.com/42tm), nội dung được viết bởi những lập trình viên trẻ
 đầy tâm huyết của nhóm. Tên những người đóng góp được ghi trong phần công trạng
