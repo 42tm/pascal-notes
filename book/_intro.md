@@ -43,11 +43,14 @@ _Pascal Cơ Bản_ này là một quyển sách hữu ích cho bạn đọc.
 <!-- [Chương 5 >>](chapter05.md) -->
 
 [Chương 6 >>](chapter06.md)
+- - -
 
-<p align="center">Bản quyền © 2018, Nhóm 42tm</p>
 <p align="center">
-    Cuốn sách này được phát hành dưới giấy phép
-    <a href="http://creativecommons.org/licenses/by/4.0/">
-        Creative Commons Attribution 4.0
-    </a>.
+    <span>Bản quyền © 2018, Nhóm 42tm</span><br/>
+    <span>
+        Cuốn sách này được phát hành dưới giấy phép
+        <a href="http://creativecommons.org/licenses/by/4.0/">
+            Creative Commons Attribution 4.0
+        </a>.
+    </span>
 </p>
