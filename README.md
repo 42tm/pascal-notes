@@ -48,7 +48,11 @@ hay ở slide cuối:
 
 > Có một khẳng định như sau:
 >
-> "Trong giao tiếp ngày thường, khi mọi người nói đến máy tính, họ đang nói đến máy tính cá nhân, tức bao gồm máy tính xách tay và máy tính để bàn. Với điện thoại, họ gọi nó là điện thoại chứ không gọi nó là máy tính. Tương tự như thế với TV. Khi nói đến máy tính, mọi người cũng có thể đang nói đến máy tính cầm tay."
+> "Trong giao tiếp ngày thường, khi mọi người nói đến máy tính, họ đang nói đến
+máy tính cá nhân, tức bao gồm máy tính xách tay và máy tính để bàn. Với điện
+thoại, họ gọi nó là điện thoại chứ không gọi nó là máy tính. Tương tự như thế
+với TV. Khi nói đến máy tính, mọi người cũng có thể đang nói đến máy tính cầm
+tay."
 >
 > _Trích từ cuốn sách Sổ Tay Pascal của nhóm 42tm_
 
