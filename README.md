@@ -4,6 +4,8 @@ Pascal Cơ Bản
 Giới thiệu
 ----------
 
+<img src="logo.png" align="left"/>
+
 Quyển sách "Pascal Cơ Bản" này được biên tập bởi nhóm
 [42tm](http://github.com/42tm), nội dung được viết bởi những lập trình viên trẻ
 đầy tâm huyết của nhóm. Tên những người đóng góp được ghi cụ thể, chi tiết
@@ -14,7 +16,6 @@ và không liên kết với bất kì tổ chức, công ty chính thức nào 
 thương hiệu và nhãn hiệu đã đăng ký là tài sản của chủ sở hữu công ty tương ứng.
 
 [![](button.png)](book/_intro.md)
----------------------------------------
 
 > **Lưu ý**: Pascal được nói tới trong cuốn sách là Pascal phiên bản thường,
 không phải Object Pascal (Pascal hướng đối tượng).
