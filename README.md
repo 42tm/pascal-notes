@@ -4,19 +4,16 @@ Pascal Cơ Bản
 Giới thiệu
 ----------
 
-<img src="logo.png" align="left"/>
-
 Quyển sách "Pascal Cơ Bản" này được biên tập bởi nhóm
 [42tm](http://github.com/42tm), nội dung được viết bởi những lập trình viên trẻ
-đầy tâm huyết của nhóm. Tên những người đóng góp được ghi trong phần công trạng
-ở cuối sách. Những hình ảnh được sử dụng có thể là bản quyền của chủ sở hữu trừ
-khi được quy định cụ thể.
+đầy tâm huyết của nhóm. Tên những người đóng góp được ghi cụ thể, chi tiết
+[tại đây](CREDITS.md).
 
 Đây là cuốn sách miễn phí và không chính thống, được tạo ra vì mục đích học tập
 và không liên kết với bất kì tổ chức, công ty chính thức nào về Pascal. Tất cả
 thương hiệu và nhãn hiệu đã đăng ký là tài sản của chủ sở hữu công ty tương ứng.
 
-[Bắt đầu đọc cuốn sách](book/_intro.md)
+[![](button.png)](book/_intro.md)
 ---------------------------------------
 
 > **Lưu ý**: Pascal được nói tới trong cuốn sách là Pascal phiên bản thường,
