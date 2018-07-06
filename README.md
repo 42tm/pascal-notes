@@ -35,7 +35,7 @@ khăn hơn. Đối với sinh viên đại học hay người lớn muốn học
 không nên học ngôn ngữ Pascal, mà một ngôn ngữ khác (ví dụ như Java hay C++).
 
 Cuốn sách đặc biệt hướng tới những bạn mới bắt đầu học lập trình. Đối với những
-bạn đang học Pascal, các bạn có thể dùng cuốn sách này để tham khảo.Pascal.
+bạn đang học Pascal, các bạn có thể dùng cuốn sách này để tham khảo.
 
 Giấy phép
 ---------
