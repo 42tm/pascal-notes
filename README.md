@@ -24,6 +24,19 @@ Tuy đã được xem xét kĩ lưỡng nhưng cuốn sách vẫn có thể có 
 đọc chỉ ra và đóng góp bằng cách gửi thư điện tử tới fourtytwotm@gmail.com hoặc
 tạo một Issue cho kho chứa này.
 
+Đối tượng mà cuốn sách này hướng tới
+------------------------------------
+
+Cuốn sách hướng tới các bạn học sinh trung học cơ sở và trung học phổ thông, bởi
+phần lớn các bạn đã quen với việc sử dụng máy tính. Trong cuốn sách, có những
+thuật ngữ máy tính rất cơ bản. Nếu bạn đã làm quen với máy tính rồi, các bạn sẽ
+hiểu được những thuật ngữ đó, nhưng nếu không, việc đọc cuốn sách trở nên khó
+khăn hơn. Đối với sinh viên đại học hay người lớn muốn học lập trình để đi làm,
+không nên học ngôn ngữ Pascal, mà một ngôn ngữ khác (ví dụ như Java hay C++).
+
+Cuốn sách đặc biệt hướng tới những bạn mới bắt đầu học lập trình. Đối với những
+bạn đang học Pascal, các bạn có thể dùng cuốn sách này để tham khảo.Pascal.
+
 Giấy phép
 ---------
 
