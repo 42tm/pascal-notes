@@ -27,7 +27,7 @@ tạo một Issue cho kho chứa này.
 Giấy phép
 ---------
 
-<img src="cc_by-logo.png" align="left"/>
+<img src="cc_by-logo.png" align="right"/>
 
 Tất cả nội dung của văn bản được phát hành dưới giấy phép [Creative Commons
 Attribution phiên bản 4.0](http://creativecommons.org/licenses/by/4.0/).
