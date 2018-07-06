@@ -29,20 +29,22 @@ cùng với cách sử dụng cú pháp có trong Pascal. Hy vọng quyển sác
 _Pascal Cơ Bản_ này là một quyển sách hữu ích cho bạn đọc.
 
 - - -
-Mục lục / Chương trình học
---------------------------
+
+<h2 align="center">Mục lục / Chương trình học</h2>
 
 ||Mô tả|Trạng thái|
 |:---:|---|---|
 |[Lời nói đầu](#)|Là trang này. Lời nói đầu của nhóm tác giả, bao gồm tại sao chọn Pascal làm ngôn ngữ vỡ lòng.|Đã hoàn thành & phê duyệt|
 |Động lực học|Động lực học lập trình.|Chưa bắt đầu|
 |[Chương 1](chapter01.md)|Giải thích một số thuật ngữ cơ bản trong lập trình như trình biên dịch, mã nguồn, môi trường phát triển tích hợp, và viết chương trình đầu tiên bằng ngôn ngữ Pascal.|Đã hoàn thành & phê duyệt|
-|[Chương 2](chapter02.md)|Cách khai báo và sử dụng biến số và hằng số trong Pascal.|Đã hoàn thành và phê duyệt|
+|[Chương 2](chapter02.md)|Cách khai báo và sử dụng biến số và hằng số trong Pascal.|Đã hoàn thành & phê duyệt|
 |Chương 3|Khái niệm về thư viện và giới thiệu một số câu lệnh của thư viện mặc định System và thư viện Crt.|Chưa bắt đầu|
 |[Chương 4](chapter04.md)|Chương trình con trong Pascal & các kỹ thuật như nạp chồng, quay lui, đệ quy.|Đã hoàn thành, chưa phê duyệt|
 |Chương 5|Các thao tác với chuỗi ký tự (`string`) trong Pascal.|Chưa bắt đầu|
 |[Chương 6](chapter06.md)|Các thao tác với mảng trong Pascal.|Đã hoàn thành, chưa phê duyệt|
 |Chương 7|Xử lý tệp tin trong Pascal.|Đã bắt đầu, chưa hoàn thành|
+|[Các câu hỏi thường gặp](faq.md)|Giải đáp một số câu hỏi mà các bạn đọc có thể đặt ra trong quá trình đọc sách.|Chưa được cập nhật tới những nội dung mới nhất của cuốn sách|
+|[Bảng chú giải các thuật ngữ](glossary.md)|Từ điển Anh - Việt bao gồm các thuật ngữ xuất hiện trong cuốn sách.|Chưa được cập nhật tới những nội dung mới nhất của cuốn sách|
 
 
 - - -
