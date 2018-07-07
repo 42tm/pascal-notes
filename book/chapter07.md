@@ -126,7 +126,7 @@ Chúng ta sẽ xem qua chương trình mẫu cùng với hàm `SetLength()`
 ```pascal
 Program arrayDynDemo;
 
-Var 
+Var
     A :   array Of Cardinal;
     i, t, ti, n :   Integer;
     num:   Cardinal;
@@ -170,5 +170,5 @@ Thì kết quả của chương trình là:
 
 Thế nó khác gì so với mảng tĩnh ? Khi lập trình với input số nguyên, nhiều người sẽ lập tức nghĩ tới số rất to và khởi tạo mảng có độ dài rất lớn (10000 chẳng hạn). Tuy nhiên, nhỡ người dùng lại nhập số rất nhỏ (5) ? Khi đó, chương trình vẫn sẽ khởi tạo 10000 vị trí trong bộ nhớ và như thế chương trình sẽ dùng thừa rất nhiều bộ nhớ. Vì thế, chúng ta phải sử dụng mảng động.
 - - -
-[<< Chương 5](chapter05.md)  
-[Chương 7 >>](chapter07.md)
+[<< Chương 6](chapter06.md)  
+[Chương 8 >>](chapter08.md)
