@@ -1,4 +1,4 @@
-Chương 4: Chương trình con
+Chương 5: Chương trình con
 ==========================
 
 Trong chương này, bạn sẽ biết được:
