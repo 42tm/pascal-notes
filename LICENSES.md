@@ -7,8 +7,9 @@ Lưu ý về việc giấy phép
 
 Nội dung của cuốn sách (bao gồm cả văn bản và hình ảnh) được cấp giấy phép
 [Creative Commons Attribution phiên bản 4.0][cc by 4.0 link] như đã ghi rõ ở
-tệp tin README.md của kho chứa. Tuy nhiên có một số hình ảnh trong cuốn sách là
-của tác giả khác và có giấy phép khác. Lưu ý về giấy phép cụ thể như sau:
+tệp tin [README.md](README.md) của kho chứa. Tuy nhiên có một số hình ảnh trong
+cuốn sách là của tác giả khác và có giấy phép khác. Lưu ý về giấy phép cụ thể
+như sau:
 
 1. Hình ảnh có đường dẫn là [`resources/img/faq/supercomputer.jpg`][spcimg link]
 được cấp giấy phép [Creative Commons Attribution-ShareAlike 2.0][cc by-sa 2.0
@@ -44,9 +45,9 @@ chú giấy phép có nguyên văn tiếng Anh như sau:
 
 4. Những hình ảnh không có giấy phép (như đã ghi trong tệp
 [CREDITS.md](CREDITS.md)) chắc chắn:
-    1. ...không xuất hiện trong cuốn sách
-    2. ...không cho phép sao chép, chỉnh sửa, hay tái phân phối
-    3. ...là tác phẩm của nhóm 42tm
+    - ...không xuất hiện trong cuốn sách
+    - ...không cho phép sao chép, chỉnh sửa, hay tái phân phối
+    - ...là tác phẩm của nhóm 42tm
 
 5. Những hình ảnh không rõ giấy phép sẽ được nhóm tác giả hoặc tình nguyện viên
 tìm rõ giấy phép hoặc thay thế bằng hình ảnh khác
