@@ -351,7 +351,7 @@ mềm giúp lập trình viên viết chương trình máy tính.
 6. `Begin` là một từ khóa trong ngôn ngữ Pascal dùng để đánh dấu điểm bắt đầu
 của chương trình chính (hay chương trình con). `End` cũng thế, khác ở chỗ nó
 đánh dấu điểm kết thúc chứ không phải điểm bắt đầu.
-7. `Writeln` là một câu lệnh trong Pascal dùng để in một dòng chữ lên màn hình
+7. `Writeln` là một câu lệnh trong Pascal dùng để in một dòng chữ lên màn hình.
 8. Để biên dịch chương trình Pascal, ta mở một cửa sổ Command Prompt (hay
 Terminal), và gõ "`fpc`", sau đó gõ dấu cách, sau đó gõ tên tệp tin chứa mã
 nguồn Pascal, sau đó nhấn phím Enter.
