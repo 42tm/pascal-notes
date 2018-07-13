@@ -23,7 +23,8 @@ Mục lục
     - [Trên macOS](#trên-macos)
 6. [Chạy chương trình Pascal](#chạy-chương-trình-pascal)
 7. [Ghi chú trong chương trình](#ghi-chú-trong-chương-trình)
-8. [Chú giải](#chú-giải)
+8. [Tổng kết chương](#tổng-kết-chương)
+9. [Chú giải](#chú-giải)
 
 [link 3]: #trình-biên-tập-mã-và-môi-trường-phát-triển-tích-hợp
 [sub link 4]: #phân-tích-mã-nguồn-của-chương-trình-hello-world
@@ -71,9 +72,9 @@ Như bạn có thể thấy, ngôn ngữ Pascal (cũng như nhiều ngôn ngữ 
 giúp việc tạo ra một chương trình máy tính đơn giản đi rất nhiều.
 
 Đến đây, ta có thể suy ra, chương trình máy tính có hai dạng:
-1. **Dạng thực thi** (executable): Dạng bao gồm các lệnh ngôn ngữ máy để đem đi
+1. **Dạng thực thi**: Dạng bao gồm các lệnh ngôn ngữ máy để đem đi
 cho máy tính thực hiện, rất khó để cho các lập trình viên đọc và chỉnh sửa
-2. **Dạng mã nguồn** (source code): Dạng bao gồm các lệnh được viết bằng một
+2. **Dạng mã nguồn**: Dạng bao gồm các lệnh được viết bằng một
 ngôn ngữ lập trình, dễ hiểu hơn ngôn ngữ máy và dành cho các lập trình viên để
 đọc và làm việc với
 
@@ -326,6 +327,46 @@ Begin
     *)
 End.
 ```
+
+Tổng kết chương
+---------------
+
+Chúc mừng, bạn đã hoàn thành chương 1! :tada: :tada: :tada:
+
+Chương 1 có những ý chính sau:
+
+1. Máy tính điện tử thông thường chỉ có thể hiểu số 1 và số 0.
+2. Một chương trình máy tính có 2 dạng: **dạng mã nguồn** là dạng dành cho các
+lập trình viên đọc và chỉnh sửa, còn **dạng thực thi** là dạng chỉ gồm số 1 và
+số 0 dành cho máy tính để thực thi.
+3. Sau khi viết chương trình ở dạng mã nguồn, lập trình viên dùng một phần mềm
+chuyển đổi để chuyển chương trình của mình từ dạng mã nguồn thành dạng thực thi.
+Đối với Pascal, phần mềm chuyển đổi đó được gọi là **trình biên dịch**.
+4. Free Pascal, tên gọi tắt là _FPC_, là trình biên dịch ngôn ngữ Pascal vẫn
+đang được phát triển. Vì thế mà trong cuốn sách này, các hướng dẫn mà động chạm
+đến trình biên dịch (như hướng dẫn biên dịch chương trình Pascal) sẽ lấy Free
+Pascal làm mẫu.
+5. **Trình biên tập mã** và **môi trường phát triển tích hợp** là hai loại phần
+mềm giúp lập trình viên viết chương trình máy tính.
+6. `Begin` là một từ khóa trong ngôn ngữ Pascal dùng để đánh dấu điểm bắt đầu
+của chương trình chính (hay chương trình con). `End` cũng thế, khác ở chỗ nó
+đánh dấu điểm kết thúc chứ không phải điểm bắt đầu.
+7. `Writeln` là một câu lệnh trong Pascal dùng để in một dòng chữ lên màn hình
+8. Để biên dịch chương trình Pascal, ta mở một cửa sổ Command Prompt (hay
+Terminal), và gõ "`fpc`", sau đó gõ dấu cách, sau đó gõ tên tệp tin chứa mã
+nguồn Pascal, sau đó nhấn phím Enter.
+9. Để chạy chương trình Pascal ở trong Command Prompt, gõ tên tệp _**thực thi**_
+rồi nhấn Enter. Để chạy chương trình Pascal ở trong Terminal, gõ một dấu chấm
+("."), sau đó gõ một dấu gạch chéo xuôi ("/"), sau đó gõ tên tệp _**thực thi**_,
+sau đó nhấn phím Enter.
+10. Để viết ghi chú trên chỉ một dòng, gõ hai dấu gạch xuôi ("//"), và sau hai
+dấu gạch xuôi đó, viết ghi chú của mình. Để viết ghi chú trên nhiều dòng, viết
+ghi chú của mình ở bên trong cặp dấu "{" và "}" hay cặp ký tự "(\*" và "\*)".
+Ghi chú là những dòng chữ viết bằng ngôn ngữ giao tiếp (như tiếng Anh), và được
+trình biên dịch bỏ qua.
+
+Bây giờ bạn có thể tiếp tục đến [chương 2](chapter02.md) để học về biến số &
+hằng số trong Pascal.
 
 - - -
 
