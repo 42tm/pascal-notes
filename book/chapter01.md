@@ -18,9 +18,9 @@ Mục lục
 4. [Viết chương trình Pascal đầu tiên](#viết-chương-trình-pascal-đầu-tiên)
     - [Phân tích mã nguồn của chương trình Hello World][sub link 4]
 5. [Biên dịch chương trình Pascal](#biên-dịch-chương-trình-pascal)
-    - [Trên hệ điều hành Windows](#trên-windows)
+    - [Trên Windows](#trên-windows)
     - [Trên một bản phân phối của GNU/Linux][sub 2 link 5]
-    - [Trên hệ điều hành macOS](#trên-macos)
+    - [Trên macOS](#trên-macos)
 6. [Chạy chương trình Pascal](#chạy-chương-trình-pascal)
 7. [Ghi chú trong chương trình](#ghi-chú-trong-chương-trình)
 8. [Chú giải](#chú-giải)
