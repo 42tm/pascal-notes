@@ -8,10 +8,10 @@ Trong chương này, bạn sẽ biết được:
 
 ## Mục lục
 
-1. [Tệp](#tệp)
-2. [Các thao tác với tệp](#các-thao-tác-với-tệp)
-3. [Tệp văn bản](#tệp-văn-bản)
-4. [Nhập xuất](#nhập-xuất)
+1.  [Tệp](#tệp)
+2.  [Các thao tác với tệp](#các-thao-tác-với-tệp)
+3.  [Tệp văn bản](#tệp-văn-bản)
+4.  [Nhập xuất](#nhập-xuất)
 
 ## Tệp
 
@@ -31,24 +31,24 @@ var
 
 ### Đóng/Mở tệp
 
-|          Câu lệnh          | Hành động                                                     |
-| :------------------------: | :------------------------------------------------------------ |
+| Câu lệnh                   | Hành động                                                     |
+| :------------------------- | :------------------------------------------------------------ |
 | `AssignFile(File, String)` | Gán tệp cho một biến                                          |
-|       `Reset(File)`        | Mở tệp ra, đưa con trỏ về vị trí đầu tiên                     |
-|      `Rewrite(File)`       | Mở tệp ra, xóa hết nội dung và đưa con trỏ về vị trí đầu tiên |
-|       `Append(File)`       | Mở tệp ra, đưa con trỏ đến vị trí cuối cùng của tệp           |
-|     `CloseFile(File)`      | Đóng tệp                                                      |
-|         `IOResult`         | Trả về kết quả của thao tác nhập/xuất tệp gần nhất            |
+| `Reset(File)`              | Mở tệp ra, đưa con trỏ về vị trí đầu tiên                     |
+| `Rewrite(File)`            | Mở tệp ra, xóa hết nội dung và đưa con trỏ về vị trí đầu tiên |
+| `Append(File)`             | Mở tệp ra, đưa con trỏ đến vị trí cuối cùng của tệp           |
+| `CloseFile(File)`          | Đóng tệp                                                      |
+| `IOResult`                 | Trả về kết quả của thao tác nhập/xuất tệp gần nhất            |
 
 ### Đọc/Ghi tệp
 
-|                          Câu lệnh                          | Hành động                                             |
-| :--------------------------------------------------------: | :---------------------------------------------------- |
-|  `Read(File, Arguments)`<br>`ReadLn(TextFile, Arguments)`  | Đọc từ tệp                                            |
+| Câu lệnh                                                   | Hành động                                             |
+| :--------------------------------------------------------- | :---------------------------------------------------- |
+| `Read(File, Arguments)`<br>`ReadLn(TextFile, Arguments)`   | Đọc từ tệp                                            |
 | `Write(File, Arguments)`<br>`WriteLn(TextFile, Arguments)` | Ghi vào tệp                                           |
-|                        `EOF(File)`                         | Kiểm tra xem con trỏ đã đến vị trí cuối tệp hay chưa  |
-|                        `EOLn(File)`                        | Kiểm tra xem con trỏ đã đến vị trí cuối dòng hay chưa |
-|                    `Seek(File, Int64)`                     | Di chuyển con trỏ tới vị trí chỉ định                 |
+| `EOF(File)`                                                | Kiểm tra xem con trỏ đã đến vị trí cuối tệp hay chưa  |
+| `EOLn(File)`                                               | Kiểm tra xem con trỏ đã đến vị trí cuối dòng hay chưa |
+| `Seek(File, Int64)`                                        | Di chuyển con trỏ tới vị trí chỉ định                 |
 
 > Các hàm và thủ tục khác có thể tìm thấy tại [Free Pascal 'System' Unit](https://www.freepascal.org/docs-html/rtl/system/index-5.html).
 
@@ -64,12 +64,12 @@ Var
     f:      TextFile;
 
 Begin
-    assign(f, 'HelloWorld.txt');
-    reset(f);
+    AssignFile(f, 'HelloWorld.txt');
+    Reset(f);
     For i:=1 To 5 Do
         Begin
-            readln(f, k);
-            writeln(k);
+            ReadLn(f, k);
+            WriteLn(k);
         End;
 End.
 ```
@@ -89,16 +89,22 @@ Var
     f1, f2: TextFile;
 
 Begin
-    assign(f1, 'tep1.txt');
-    assign(f2, 'tep2.txt');
-    reset(f1);
-    rewrite(f2);
+    AssignFile(f1, 'tep1.txt');
+    AssignFile(f2, 'tep2.txt');
+    Reset(f1);
+    Rewrite(f2);
     For i:=1 To 5 Do
         Begin
-            readln(f1, s);
-            writeln(f2, s);
+            ReadLn(f1, s);
+            WriteLn(f2, s);
         End;
 End.
 ```
 
 > Tiếp tục, bạn hãy thử tạo tệp _tep1.txt_, nhập vào tệp vài con số, lưu lại rồi chạy chương trình trên. Sẽ có một tệp _tep2.txt_ xuất hiện sau khi chạy chương trình.
+
+---
+
+[<< Chương 7](chapter07.md)
+
+[Chương 9 >>](chapter09.md)
