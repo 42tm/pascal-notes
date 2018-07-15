@@ -1,4 +1,4 @@
-# Chương 7: Tệp (Files)
+# Chương 8: Tệp (Files)
 
 Trong chương này, bạn sẽ biết được:
 
@@ -31,14 +31,14 @@ var
 
 ### Đóng/Mở tệp
 
-|                       Câu lệnh                       | Hành động                                                     |
-| :--------------------------------------------------: | :------------------------------------------------------------ |
-| `AssignFile(File, String)`<br>`Assign(File, String)` | Gán tệp cho một biến                                          |
-|                    `Reset(File)`                     | Mở tệp ra, đưa con trỏ về vị trí đầu tiên                     |
-|                   `Rewrite(File)`                    | Mở tệp ra, xóa hết nội dung và đưa con trỏ về vị trí đầu tiên |
-|                    `Append(File)`                    | Mở tệp ra, đưa con trỏ đến vị trí cuối cùng của tệp           |
-|          `CloseFile(File)`<br>`Close(File)`          | Đóng tệp                                                      |
-|                      `IOResult`                      | Trả về kết quả của thao tác nhập/xuất tệp gần nhất            |
+|          Câu lệnh          | Hành động                                                     |
+| :------------------------: | :------------------------------------------------------------ |
+| `AssignFile(File, String)` | Gán tệp cho một biến                                          |
+|       `Reset(File)`        | Mở tệp ra, đưa con trỏ về vị trí đầu tiên                     |
+|      `Rewrite(File)`       | Mở tệp ra, xóa hết nội dung và đưa con trỏ về vị trí đầu tiên |
+|       `Append(File)`       | Mở tệp ra, đưa con trỏ đến vị trí cuối cùng của tệp           |
+|     `CloseFile(File)`      | Đóng tệp                                                      |
+|         `IOResult`         | Trả về kết quả của thao tác nhập/xuất tệp gần nhất            |
 
 ### Đọc/Ghi tệp
 
