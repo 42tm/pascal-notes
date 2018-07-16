@@ -1,5 +1,4 @@
-Chương 2: Biến số, hằng số và kiểu dữ liệu
-==========================================
+<h1 align="center">Chương 2: Biến số, hằng số và kiểu dữ liệu</h1>
 
 Trong chương này, bạn sẽ biết được:
 - Kiểu dữ liệu là gì
@@ -13,21 +12,29 @@ Mục lục
 
 1. [Kiểu dữ liệu](#kiểu-dữ-liệu)
 2. [Biến số](#biến-số)
-    - [Các thao tác cơ bản với biến số trong ngôn ngữ Pascal](#các-thao-tác-cơ-bản-với-biến-số-trong-ngôn-ngữ-pascal)
+    - [Các thao tác cơ bản với biến số trong ngôn ngữ Pascal][sub 1 link 2]
         - [Khai báo biến số](#khai-báo-biến-số)
         - [Gán giá trị cho biến số](#gán-giá-trị-cho-biến-số)
 3. [Hằng số](#hằng-số)
-4. [Các lỗi cơ bản xung quanh biến số và hằng số trong Pascal](#các-lỗi-cơ-bản-xung-quanh-biến-số-và-hằng-số-trong-pascal)
-    1. [Lỗi sử dụng biến số và hằng số chưa được khai báo](#1-lỗi-sử-dụng-biến-số-và-hằng-số-chưa-được-khai-báo)
+4. [Các lỗi cơ bản xung quanh biến số và hằng số trong Pascal][link 4]
+    1. [Lỗi sử dụng biến số và hằng số chưa được khai báo][sub 1 link 4]
     2. [Lỗi gán giá trị không có cùng kiểu dữ liệu đã đặt ra cho biến số](#2-lỗi-gán-giá-trị-không-có-cùng-kiểu-dữ-liệu-đã-đặt-ra-cho-biến-số)
-    3. [Lỗi gán giá trị không trong giới hạn](#3-lỗi-gán-giá-trị-không-trong-giới-hạn)
+    3. [Lỗi gán giá trị không trong giới hạn][sub 3 link 4]
     4. [Lỗi thay đổi giá trị của hằng số](#4-lỗi-thay-đổi-giá-trị-của-hằng-số)
 5. [Từ khóa `Type`](#từ-khóa-type)
+
+[sub 1 link 2]: #các-thao-tác-cơ-bản-với-biến-số-trong-ngôn-ngữ-pascal
+[link 4]: #các-lỗi-cơ-bản-xung-quanh-biến-số-và-hằng-số-trong-pascal
+[sub 1 link 4]: #1-lỗi-sử-dụng-biến-số-và-hằng-số-chưa-được-khai-báo
+[sub 3 link 4]: #3-lỗi-gán-giá-trị-không-trong-giới-hạn
 
 Kiểu dữ liệu
 ------------
 
-Dữ liệu trong máy tính có nhiều kiểu, ví dụ như kiểu số nguyên, kiểu số thực, kiểu chuỗi ký tự. Ngôn ngữ Pascal cũng có các kiểu dữ liệu. Một số kiểu dữ liệu có sẵn được liệt kê trong bảng sau. Các kiểu dữ liệu quan trọng và hay được sử dụng được in đậm.
+Dữ liệu trong máy tính có nhiều kiểu, ví dụ như kiểu số nguyên, kiểu số thực,
+kiểu chuỗi ký tự. Ngôn ngữ Pascal cũng có các kiểu dữ liệu. Một số kiểu dữ liệu
+có sẵn được liệt kê trong bảng sau. Các kiểu dữ liệu quan trọng và hay được sử
+dụng được in đậm.
 
 |  Kiểu dữ liệu |                               Định nghĩa                                 |             Giới hạn             |
 |      ---      |                                   ---                                    |                ---               |
@@ -42,58 +49,86 @@ Dữ liệu trong máy tính có nhiều kiểu, ví dụ như kiểu số nguy�
 |   `pointer`   | Con trỏ trỏ tới một vị trí trong bộ nhớ                                  | -                                |
 |    `record`   | Kiểu cho phép kết hợp nhiều kiểu dữ liệu với nhau                        | -                                |
 |  **`array`**  | Mảng - Tập hợp các đối tượng cùng kiểu dữ liệu                           | -                                |
-|  **`string`** | Xâu ký tự - Mảng tập hợp các đối tượng là ký tự                          | Từ 0 đến 255 ký tự               |
+|  **`string`** | Chuỗi ký tự - Mảng tập hợp các đối tượng là ký tự                        | Độ dài từ 0 đến 255 ký tự        |
 
-Ứng dụng phổ biến nhất của kiểu dữ liệu là xác định kiểu dữ liệu cho giá trị của một biến số. Ví dụ, biến số `a` có giá trị là một số nguyên, biến số  `foo` có giá trị là một số thực, biến số  `bar` có giá trị của một biến số kiểu boolean.
+Ứng dụng phổ biến nhất của kiểu dữ liệu là xác định kiểu dữ liệu cho giá trị của
+một biến số. Ví dụ, biến số `a` có giá trị là một số nguyên, biến số  `foo` có
+giá trị là một số thực, biến số  `bar` có giá trị của một biến số kiểu boolean.
 
-Máy tính có giới hạn, nên các kiểu dữ liệu có giới hạn. Ví dụ, trong ngôn ngữ Pascal, giá trị kiểu số nguyên `integer` không thể vượt quá 32 767 (như bảng trên). Nếu trong chương trình Pascal mà bạn dùng số nguyên có kiểu `integer` nào có giá trị quá 32767, chương trình sẽ gặp lỗi.
+Máy tính có giới hạn, nên các kiểu dữ liệu có giới hạn. Ví dụ, trong ngôn ngữ
+Pascal, giá trị kiểu số nguyên `integer` không thể vượt quá 32 767 (như bảng
+trên). Nếu trong chương trình Pascal mà bạn dùng số nguyên có kiểu `integer` nào
+có giá trị quá 32767, chương trình sẽ gặp lỗi.
 
-Có thể bạn đang thắc mắc, "Tại sao đã có kiểu dữ liệu `byte` là số nguyên, mà còn phải có kiểu dữ liệu `word` có giới hạn xa hơn để làm gì?". Câu trả lời là, kiểu dữ liệu này có thể chiếm bộ nhớ ít hoặc nhiều hơn kiểu dữ liệu kia. Chúng ta sẽ tìm hiểu thêm trong phần về tối ưu bộ nhớ.
+Có thể bạn đang thắc mắc, "Tại sao đã có kiểu dữ liệu `byte` là số nguyên, mà
+còn phải có kiểu dữ liệu `word` có giới hạn xa hơn để làm gì?". Câu trả lời là,
+kiểu dữ liệu này có thể chiếm bộ nhớ ít hoặc nhiều hơn kiểu dữ liệu kia. Chúng
+ta sẽ tìm hiểu thêm trong phần về tối ưu bộ nhớ.
 
 Biến số
 -------
 
-Lập trình không chỉ dừng lại ở chương trình Hello World. Để có thể làm được nhiều thứ tuyệt vời hơn, chúng tôi cần giới thiệu với bạn khái niệm về **biến số**.
+Lập trình không chỉ dừng lại ở chương trình Hello World. Để có thể làm được
+nhiều thứ tuyệt vời hơn, bạn cần biết đến khái niệm **biến số**.
 
-Ví dụ, tôi nhờ bạn ghi nhớ hai số: 42 và 7. Não bạn sẽ giành hai khoảng không trong bộ nhớ để ghi nhớ số 42 và số 7. Bây giờ tôi nhờ bạn cộng số 3 vào số 7 bạn đã ghi nhớ. Não bạn sẽ nhớ đến số 7, cộng 3 vào đó, và có số 10.
+Ví dụ, tôi nhờ bạn ghi nhớ hai số: 42 và 7. Não bạn sẽ giành hai khoảng không
+trong bộ nhớ để ghi nhớ số 42 và số 7. Bây giờ tôi nhờ bạn cộng số 3 vào số 7
+bạn đã ghi nhớ. Não bạn sẽ nhớ đến số 7, cộng 3 vào đó, và có số 10.
 
-Máy tính cũng có thể thực hiện điều như trên với biến số. **Biến số là một đại lượng được đặt tên và có giá trị. Giá trị này có thể thay đổi.**
+Máy tính cũng có thể thực hiện điều như trên với biến số. **Biến số là một đại
+lượng được đặt tên và có giá trị. Giá trị này có thể thay đổi.**
 
 Minh họa ví dụ trên:
+
 ```
 a = 42
 b = 7
 
 b = b + 3
 ```
-Trong minh họa, có thể thấy lúc đầu biến số có tên là "`a`" mang giá trị là 42. Biến số có tên là "`b`" mang giá trị 7. Sau đó ta lại thay đổi giá trị của biến số  "`b`" bằng cách cộng 3 vào giá trị hiện tại của biến số  "`b`", là 7. Bây giờ biến số  "`b`" có giá trị là 7 + 3 = 10.
+
+Trong minh họa, có thể thấy lúc đầu biến số có tên là "`a`" mang giá trị là 42.
+Biến số có tên là "`b`" mang giá trị 7. Sau đó ta lại thay đổi giá trị của biến
+số  "`b`" bằng cách cộng 3 vào giá trị hiện tại của biến số  "`b`", là 7. Bây
+giờ biến số  "`b`" có giá trị là 7 + 3 = 10.
 
 ### Các thao tác cơ bản với biến số trong ngôn ngữ Pascal
 
 #### Khai báo biến số
 
-Trong Pascal, để khai báo biến số, bạn dùng từ khóa `Var` ở ngay đầu chương trình, như dòng thứ 2 trong chương trình sau.
+Trước khi sử dụng biến số, chúng ta cần phải khai báo biến số, để chương trình
+đặt ra một khoảng trong bộ nhớ máy tính dùng để lưu trữ giá trị của biến số đó.
+Trong Pascal, để khai báo biến số, bạn dùng từ khóa `Var` ở ngay đầu chương
+trình, như dòng thứ 2 trong chương trình sau.
 
 ```pascal
 Program VariableDefineDemo;
-Var a: integer;
+Var
+    a: integer;
 
 Begin
 End.
 ```
 
-Trong ví dụ trên, biến số  `a` được khai báo và kiểu dữ liệu chúng ta đã định ra là `integer`. Điều này có nghĩa là, biến số  `a` có thể mang một giá trị số nguyên trong giới hạn của nó, tức là trong giữa khoảng từ -32 768 đến 32 767, theo như bảng các kiểu dữ liệu mà chúng ta đã tìm hiểu ở phần đầu của chương.
-Giả sử chúng ta muốn khai báo các biến số  `a`, `b`, và `c` đều có kiểu dữ liệu số nguyên `integer`, ta có thể khai báo trên cùng một dòng, ngăn cách với dấu phẩy.
+Trong ví dụ trên, biến số  `a` được khai báo và kiểu dữ liệu chúng ta đã định ra
+là `integer`. Điều này có nghĩa là, biến số  `a` có thể mang một giá trị số
+nguyên trong giới hạn của nó, tức là trong giữa khoảng từ -32 768 đến 32 767,
+theo như bảng các kiểu dữ liệu mà chúng ta đã tìm hiểu ở phần đầu của chương.
+Giả sử chúng ta muốn khai báo các biến số  `a`, `b`, và `c` đều có kiểu dữ liệu
+số nguyên `integer`, ta có thể khai báo trên cùng một dòng, ngăn cách với dấu
+phẩy.
 
 ```pascal
 Program VariableDefineDemo;
-Var a, b, c: integer;
+Var
+    a, b, c: integer;
 
 Begin
 End.
 ```
 
-Giả sử chúng ta muốn đặt thêm biến số  `s` có kiểu dữ liệu là `string`. Chúng ta có thể thêm một dòng sau dấu chấm phẩy ở phần khai báo biến số.
+Giả sử chúng ta muốn đặt thêm biến số  `s` có kiểu dữ liệu là `string`. Chúng ta
+có thể thêm một dòng sau dấu chấm phẩy ở phần khai báo biến số.
 
 ```pascal
 Program VariableDefineDemo;
@@ -103,11 +138,13 @@ Begin
 End.
 ```
 
-Tuy nhiên, với các biến số có các kiểu dữ liệu khác nhau, nên khai báo trên các dòng riêng.
+Tuy nhiên, với các biến số có các kiểu dữ liệu khác nhau, nên khai báo trên các
+dòng riêng.
 
 ```pascal
 Program VariableDefineDemo;
-Var a, b, c: integer;
+Var
+    a, b, c: integer;
     s, MyName: string;
     c, ConfKey, EndLine: char;
 
@@ -117,11 +154,14 @@ End.
 
 #### Gán giá trị cho biến số
 
-Bạn có thể gán giá trị cho biến số trong chương trình chính (hoặc chương trình con) sử dụng ký hiệu “`:=`” với cấu trúc là `TÊN_BIẾN := GIÁ_TRỊ`.
+Bạn có thể gán giá trị cho biến số sử dụng ký hiệu "`:=`" với cú pháp là
+`TÊN_BIẾN := GIÁ_TRỊ`. Trong chương trình sau, chúng ta gán giá trị 42 cho biến
+số `a`. Vậy từ đó biến số `a` mang giá trị là 42.
 
 ```pascal
 Program VarAssignDemo;
-Var a: Integer;
+Var
+    a: Integer;
 
 Begin
     a := 42;
@@ -132,13 +172,15 @@ Bạn cũng có thể gán giá trị ngay trong phần khai báo, sử dụng d
 
 ```pascal
 Program VarAssignDemo;
-Var b: Integer = 7;  // Biến số b mang giá trị là 7
+Var
+    b: Integer = 7;  // Biến số b mang giá trị là 7
 
 Begin
 End.
 ```
 
-Như đã đề cập, giá trị của biến số có thể thay đổi. Để thay đổi giá trị của một biến số thì không có gì đặc biệt, các bạn vẫn cứ dùng ký hiệu "`:=`" như thường.
+Như đã đề cập, giá trị của biến số có thể thay đổi. Để thay đổi giá trị của một
+biến số thì không có gì đặc biệt, các bạn vẫn dùng ký hiệu "`:=`".
 
 ```pascal
 Var a, b: Integer;
@@ -154,7 +196,8 @@ End.
 Các bạn cũng có thể gán giá trị của biến số này vào giá trị của biến số kia.
 
 ```pascal
-Var Ans: Integer = 37;
+Var
+    Ans: Integer = 37;
     get: Integer;
 
 Begin
@@ -162,27 +205,30 @@ Begin
 End.
 ```
 
-Chúng ta còn có thể gán giá trị của một biến với giá trị của chính nó với một thay đổi nào đó.
+Chúng ta còn có thể gán giá trị của một biến với giá trị của chính nó với một
+thay đổi nào đó.
 
 ```pascal
-Var MyVar: String;
+Var
+    MyVar: Integer;
 
 Begin
-    MyVar := 'Hello';  // Biến số kiểu chuỗi ký tự MyVar có giá trị là “Hello”
+    MyVar := 9;  // Biến số kiểu số nguyên MyVar có giá trị là 9
 
-    // Biến số MyVar giờ được gán với giá trị của chính nó, cộng với 2 ký tự “, ”
-    // Giá trị hiện tại của biến số MyVar sẽ là “Hello” + ", " = “Hello, ”
-    MyVar := MyVar + ', ';
-
-    // Giá trị hiện tại của biến số MyVar là “Hello, my friend!”. “Hello, ” + “my friend!” = “Hello, my friend!”
-    MyVar := MyVar + 'my friend!';
+    // Biến số MyVar giờ được gán với giá trị của chính nó, cộng với 12.
+    // Vậy giá trị của biến số MyVar bây giờ là 21 (vì 9 + 12 = 21).
+    MyVar := MyVar + 12;
 End;
 ```
 
 Hằng số
 -------
 
-Giống biến số, hằng số cũng là một đại lượng có tên và giá trị. Nhưng **giá trị của hằng số không thể thay đổi được**. Bạn không thể thay đổi giá trị của một hằng số trong suốt chương trình. Cách khai báo hằng số khá giống cách khai báo biến số, nhưng các bạn dùng từ khóa `Const`.
+Giống biến số, hằng số cũng là một đại lượng có tên và giá trị. Nhưng **giá trị
+của hằng số không thể thay đổi được**. Một khi hằng số đã được gán cho một giá
+trị, nó sẽ luôn mang giá trị đó trong suốt chương trình. Cách khai báo hằng số
+khá giống cách khai báo biến số, nhưng các bạn dùng từ khóa `Const` thay vì từ
+kháo `Var`.
 
 ```pascal
 Program ConstantDemo;
@@ -193,24 +239,32 @@ Begin
 End.
 ```
 
-Không giống với biến số, bạn không cần xác định kiểu dữ liệu của hằng số, mà ngôn ngữ Pascal sẽ tự xác định cho bạn. Ở ví dụ dưới, hằng số `MyAnswer` có kiểu dữ liệu là `string`, nhưng chúng ta không cần phải viết `MyAnswer: String = '42'`. Đương nhiên, cách viết đó cũng không có gì sai.
+Không giống với biến số, bạn không cần xác định kiểu dữ liệu của hằng số, mà
+ngôn ngữ Pascal có thể tự xác định cho bạn. Ở ví dụ dưới, hằng số `MyAnswer` có
+kiểu dữ liệu là `string`, nhưng chúng ta không cần phải viết
+"`MyAnswer: String = '42'`". Đương nhiên, nếu viết như vậy thì cũng không sai.
 
 ```pascal
 Program ConstantDemo;
-Const MyAnswer = '42';
+Const
+    MyAnswer = '42';
 
 Begin
 End.
 ```
-Bạn phải đặt giá trị cho hằng số ngay trong phần khai báo, chứ không thể đặt giá trị cho hằng số trong chương trình chính/chương trình con được.
+
+Bạn phải đặt giá trị cho hằng số ngay trong phần khai báo, chứ không thể đặt giá
+trị cho hằng số trong chương trình chính/chương trình con được.
 
 Các lỗi cơ bản xung quanh biến số và hằng số trong Pascal
 ---------------------------------------------------------
 
 ### 1. Lỗi sử dụng biến số và hằng số chưa được khai báo
 
-Nếu bạn sử dụng một biến số mà chưa được khai báo, bạn sẽ gặp lỗi biên dịch khi trình biên dịch biên dịch mã nguồn bạn viết.
-Trong chương trình sau, có thể thấy biến số `CoorZ` chưa được khai báo trong phần khai báo biến số, nhưng nó lại được sử dụng trong chương trình.
+Nếu bạn sử dụng một biến số mà chưa được khai báo, bạn sẽ gặp lỗi biên dịch khi
+trình biên dịch biên dịch mã nguồn bạn viết. Trong chương trình sau, có thể thấy
+biến số `CoorZ` chưa được khai báo trong phần khai báo biến số, nhưng nó lại
+được sử dụng trong chương trình.
 
 ```pascal
 Program Failure;
@@ -221,19 +275,30 @@ Begin
 End.
 ```
 
-Biên dịch chương trình trên bằng trình biên dịch Free Pascal, trình biên dịch sẽ thông báo lỗi như trong ảnh sau (để ý dòng “_test.pas(5,5) Error: Identifier not found "CoorZ"_”)
-![Trình biên dịch thông báo lỗi: Biến CoorZ chưa được khai báo][ce - var not found - img]
+Biên dịch chương trình trên bằng trình biên dịch Free Pascal, trình biên dịch sẽ
+thông báo lỗi như trong ảnh sau (để ý dòng "_test.pas(5,5) Error: Identifier not
+found "CoorZ"_")
 
-[ce - var not found - img]: ../resources/img/compile_error-variable_not_found.png
+![Trình biên dịch thông báo lỗi: Biến CoorZ chưa được khai báo][ce1]
 
-Có một điều cần lưu ý rằng, ngôn ngữ Pascal không phân biệt chữ hoa và chữ thường. Như trong lời nói đầu:
-> Đặc biệt, người sử dụng ngôn ngữ Pascal không cần phải lo việc các từ khóa có viết hoa hay không vì Pascal không phân biệt chữ hoa và chữ thường đối với các câu lệnh và từ khóa của nó.
+[ce1]: ../resources/img/compile_error-variable_not_found.png
 
-Vì lí do này, nếu bạn đặt một biến số có tên là “`FooBar`”, thì trong chương trình Pascal, bạn có thể viết “`foobar`”, “`Foobar`”, hay “`fOoBAR`”, tất cả đều là biến số `FooBar` hết. Chương trình dưới đây sẽ không gặp lỗi khi biên dịch.
+Có một điều cần lưu ý rằng, ngôn ngữ Pascal không phân biệt chữ hoa và chữ
+thường. Như trong lời nói đầu:
+
+> Đặc biệt, người sử dụng ngôn ngữ Pascal không cần phải lo việc các từ khóa có
+viết hoa hay không vì Pascal không phân biệt chữ hoa và chữ thường đối với các
+câu lệnh và từ khóa của nó.
+
+Vì lí do này, nếu bạn đặt một biến số có tên là “`FooBar`”, thì trong chương
+trình Pascal, bạn có thể viết “`foobar`”, “`Foobar`”, hay “`fOoBAR`”, tất cả đều
+là biến số `FooBar` hết. Chương trình dưới đây sẽ không gặp lỗi khi biên dịch.
 
 ```pascal
-Var message: String;
-Const au = 'cac ban';
+Var
+    message: String;
+Const
+    au = 'cac ban';
 
 Begin
     message := 'Xin chao';
@@ -242,11 +307,18 @@ Begin
 End.
 ```
 
-Đối với hằng số, tất cả các điều trên vẫn đúng.
+Đối với hằng số, các từ khóa Pascal, tên các thủ tục và hàm trong Pascal, tất cả
+các điều trên vẫn đúng. Ví dụ như thủ tục `Writeln()` mà bạn đã biết ở chương 1,
+bạn cũng có thể viết là "`writeln()`", "`WriteLn()`", hay "`WrItELn()`", tất cả
+đều là một.
 
 ### 2. Lỗi gán giá trị không có cùng kiểu dữ liệu đã đặt ra cho biến số
 
-Nói chung, với giá trị có kiểu dữ liệu là một số thì bạn chỉ được dùng các ký tự chữ số (từ 0 đến 9), và nếu đó là kiểu số thực như kiểu `real` thì có thể thêm dấu chấm để ngăn cách giữa phần nguyên với phần thập phân. Với giá trị có kiểu dữ liệu là xâu ký tự (`string`) thì các bạn phải viết xâu đó ra và đặt hai dấu phẩy trên (') ở đầu và cuối chuỗi.
+Nói chung, với giá trị có kiểu dữ liệu là một số thì bạn chỉ được dùng các ký tự
+chữ số (từ 0 đến 9), và nếu đó là kiểu số thực như kiểu `real` thì có thể thêm
+dấu chấm để ngăn cách giữa phần nguyên với phần thập phân. Với giá trị có kiểu
+dữ liệu là xâu ký tự (`string`) thì các bạn phải viết xâu đó ra và đặt hai dấu
+phẩy trên (') ở đầu và cuối chuỗi.
 
 ```pascal
 Var
@@ -260,48 +332,74 @@ Begin
 End.
 ```
 
-Tuy nhiên, nếu bạn gán một chuỗi ký tự cho một biến số số nguyên, thì bạn sẽ gặp lỗi biên dịch.
+Tuy nhiên, nếu bạn gán một chuỗi ký tự cho một biến số số nguyên, thì bạn sẽ gặp
+lỗi biên dịch.
 
 ```pascal
-Var i: Integer;
+Var
+    i: Integer;
 
 Begin
     i := 'code';
 End.
 ```
 
-Biên dịch chương trình trên, ta sẽ gặp lỗi biên dịch. Để ý dòng “_test.pas(4,10) Error: Incompatible types: got "Constant String" expected "SmallInt"_”, dòng đó có nghĩa là trình biên dịch muốn ta gán biến số một giá trị số nguyên, nhưng ta lại gắn cho nó một chuỗi ký tự.
-![Lỗi biên dịch khi gán một chuỗi ký tự vào một biến số đã khai báo với kiểu số nguyên][ce - incompatible type - img]
+Biên dịch chương trình trên, ta sẽ gặp lỗi biên dịch. Để ý dòng “_test.pas(4,10)
+Error: Incompatible types: got "Constant String" expected "SmallInt"_”, dòng đó
+có nghĩa là trình biên dịch muốn ta gán biến số một giá trị số nguyên, nhưng ta
+lại gắn cho nó một chuỗi ký tự.
 
-[ce - incompatible type - img]: ../resources/img/compile_error-incompatible_type.png
+![Lỗi biên dịch khi gán một chuỗi ký tự vào một biến số kiểu số nguyên][ce2]
 
-Bạn không thể gán một chuỗi ký tự cho một biến số kiểu `integer`, tuy nhiên đối với các biến số mà có kiểu giống nhau ở dưới hình thức cơ bản, thì điều ngược lại xảy ra. Ví dụ, bạn có ba biến số, hai trong số đó có kiểu dữ liệu `integer` và biến số kia có kiểu dữ liệu `byte`. Bạn hoàn toàn có thể gán giá trị tổng của hai số nguyên kiểu `integer` đó vào biến số kiểu byte. Bạn cũng có thể gán giá trị của một số nguyên vào một số thực. Chương trình dưới đây sẽ không gặp lỗi biên dịch.
+[ce2]: ../resources/img/compile_error-incompatible_type.png
+
+Bạn không thể gán một chuỗi ký tự cho một biến số kiểu `integer`, tuy nhiên đối
+với các biến số mà có kiểu giống nhau ở dưới hình thức cơ bản, thì điều ngược
+lại xảy ra. Ví dụ, bạn có ba biến số, hai trong số đó có kiểu dữ liệu `integer`
+và biến số kia có kiểu dữ liệu `byte`. Bạn hoàn toàn có thể gán giá trị tổng của
+hai số nguyên kiểu `integer` đó vào biến số kiểu byte. Bạn cũng có thể gán giá
+trị của một số nguyên vào một số thực. Chương trình dưới đây sẽ không gặp lỗi
+biên dịch.
 
 ```pascal
-Var i, caca: Integer;
+Var
+    i, caca: Integer;
     b: byte;
     a, final: real;
 
 Begin
     a := 5.5;
     i := 5;
-    final := a + i;
+    final := a + i;  // Cộng một biến số kiểu số nguyên với biến số kiểu số thực
 
     caca := 250;
-    b := caca + i;
+    b := caca + i;  // Gắn tổng của hai biến số kiểu Integer vào biến số kiểu Byte
 End.
 ```
 
 ### 3. Lỗi gán giá trị không trong giới hạn
 
-Đối với trình biên dịch Free Pascal, việc _gán biến số hay hằng số với một giá trị không trong giới hạn của kiểu dữ liệu được đặt ra cho biến số/hằng số_ không hẳn là một lỗi, mà là một cảnh báo. Ví dụ, nếu bạn gán một biến số có kiểu `byte` một giá trị là 512, trình biên dịch sẽ đưa ra cảnh cáo "_test.pas(5,10) Warning: range check error while evaluating constants (512 must be between 0 and 255)_"
-![Cảnh cáo của trình biên dịch khi gán giá trị không trong giới hạn][cw - range - img]
+Đối với trình biên dịch Free Pascal, việc gán biến số hay hằng số với một giá
+trị không trong giới hạn của kiểu dữ liệu được đặt ra cho biến số/hằng số không
+hẳn là một lỗi, mà là một cảnh báo. Ví dụ, nếu bạn gán một biến số có kiểu
+`byte` một giá trị là 512 (tức là không trong giới hạn của kiểu dữ liệu `byte`),
+trình biên dịch sẽ đưa ra cảnh báo, như trong hình ảnh dưới đây (để ý dòng chữ
+"_test.pas(5,10) Warning: range check error while evaluating constants (512 must
+be between 0 and 255)_"):
 
-[cw - range - img]: ../resources/img/compile_warning-range_error.png
+![Cảnh cáo của trình biên dịch khi gán giá trị không trong giới hạn][cw1]
+[cw1]: ../resources/img/compile_warning-range_error.png
 
-Trình biên dịch vẫn hoàn thành công việc biên dịch và vẫn cho ra chương trình ở dạng có thể thực thi như bình thường. Tuy nhiên, **gán giá trị không trong giới hạn của kiểu dữ liệu có thể để lại nhiều hậu quả. Vì vậy, nếu thấy cảnh cáo này, bạn cần xử lý vấn đề ngay lập tức.**
+Trình biên dịch vẫn hoàn thành công việc biên dịch và vẫn cho ra chương trình ở
+dạng có thể thực thi như bình thường. Tuy nhiên, **gán giá trị không trong giới
+hạn của kiểu dữ liệu có thể để lại nhiều hậu quả. Vì vậy, nếu thấy cảnh cáo này,
+bạn cần xử lý vấn đề ngay lập tức.**
 
-Biến số cũng không nên có giá trị ngoài giới hạn trong bất cứ lúc nào mà chương trình chạy. Khi biên dịch chương trình sau, bạn sẽ không gặp lỗi hay cảnh báo từ trình biên dịch. Nhưng biến số `c` kiểu `byte` được gán với giá trị 250 + 250 = 500, mà 500 nằm ngoài giới hạn của dữ liệu kiểu `byte` (từ 0 đến 255) nên sẽ gây ra hiện tượng ra ngoài khoảng, và khi đó, số sẽ lại được đếm bắt đầu từ 0.
+Biến số cũng không nên có giá trị ngoài giới hạn trong bất cứ lúc nào mà chương
+trình chạy. Khi biên dịch chương trình sau, bạn sẽ không gặp lỗi hay cảnh báo từ
+trình biên dịch. Nhưng biến số `c` kiểu `byte` được gán với giá trị 250 + 250 =
+500, mà 500 nằm ngoài giới hạn của dữ liệu kiểu `byte` (từ 0 đến 255) nên sẽ gây
+ra hiện tượng ra ngoài khoảng, và khi đó, số sẽ lại được đếm bắt đầu từ 0.
 
 ```pascal
 Program Failure;
@@ -311,13 +409,16 @@ Begin
     a := 250;
     b := 250;
     c := a + b;
-    write(c);       // Chương trình sẽ in ra 244, không phải 500 (do 500 - (255 - 0 + 1) = 244)
+    write(c);  // Chương trình sẽ in ra 244, không phải 500 (do 500 - (255 - 0 + 1) = 244)
 End.
 ```
 
 ### 4. Lỗi thay đổi giá trị của hằng số
 
-Hằng số là một đại lượng có giá trị không đổi, nên bạn không thể thay đổi giá trị của hằng số một khi giá trị của nó đã được xác định trong phần khai báo. Khi biên dịch chương trình sau, trình biên dịch sẽ báo lỗi “_Error: Variable identifier expected_”.
+Hằng số là một đại lượng có giá trị không đổi, nên bạn không thể thay đổi giá
+trị của hằng số một khi giá trị của nó đã được xác định trong phần khai báo. Khi
+biên dịch chương trình sau, trình biên dịch sẽ báo lỗi “_Error: Variable
+identifier expected_”.
 
 ```pascal
 Const
@@ -331,9 +432,13 @@ End.
 Từ khóa `Type`
 --------------
 
-Trong ngôn ngữ Pascal, từ khóa `Type` được dùng để bắt đầu việc khai báo các kiểu dữ liệu mà lập trình viên muốn tạo. Kiểu dữ liệu này thường được tạo dựng từ những kiểu dữ liệu đã có sẵn.
-Nhờ đó, bạn có thể tạo một cách viết tắt cho kiểu dữ liệu đã có rồi.
-Ví dụ: Như bạn đã biết, để khai báo một biến số kiểu số nguyên `integer` thì cần đến từ khóa `integer`. Nhưng nếu bạn không muốn gõ "integer" mà muốn gõ "int" để khai báo biến số `integer`, bạn có thể thực hiện mong muốn đó nhờ từ khóa `Type`. Chương trình sau là một ví dụ.
+Trong ngôn ngữ Pascal, từ khóa `Type` được dùng để bắt đầu việc khai báo các
+kiểu dữ liệu mà lập trình viên muốn tạo. Kiểu dữ liệu này thường được tạo dựng
+từ những kiểu dữ liệu đã có sẵn. Nhờ đó, bạn có thể tạo một cách viết tắt cho
+kiểu dữ liệu đã có rồi. Ví dụ: Như bạn đã biết, để khai báo một biến số kiểu số
+nguyên `integer` thì cần đến từ khóa `integer`. Nhưng nếu bạn không muốn gõ
+"integer" mà muốn gõ "int" để khai báo biến số `integer`, bạn có thể thực hiện
+mong muốn đó nhờ từ khóa `Type`. Chương trình sau là một ví dụ.
 
 ```pascal
 Type int = integer;
@@ -347,8 +452,9 @@ Begin
 End.
 ```
 
-Tương tự như từ khóa `Var` và từ khóa `Const`, từ khóa `Type` cũng cần được đặt ở đầu chương trình.
-Từ khóa `Type` còn được dùng để lập trình viên có thể tạo dữ liệu kiểu `record` của riêng mình. Chúng ta sẽ nói đến phần này sau.
+Tương tự như từ khóa `Var` và từ khóa `Const`, từ khóa `Type` cũng cần được đặt
+ở đầu chương trình. Từ khóa `Type` còn được dùng để lập trình viên có thể tạo
+dữ liệu kiểu `record` của riêng mình. Chúng ta sẽ nói đến phần này sau.
 
 ```pascal
 Type
