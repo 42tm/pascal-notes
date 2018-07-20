@@ -22,6 +22,7 @@ Mục lục
     3. [Lỗi gán giá trị không trong giới hạn][sub 3 link 4]
     4. [Lỗi thay đổi giá trị của hằng số](#4-lỗi-thay-đổi-giá-trị-của-hằng-số)
 5. [Từ khóa `Type`](#từ-khóa-type)
+6. [Tổng kết chương](#tổng-kết-chương)
 
 [sub 1 link 2]: #các-thao-tác-cơ-bản-với-biến-số-trong-ngôn-ngữ-pascal
 [link 4]: #các-lỗi-cơ-bản-xung-quanh-biến-số-và-hằng-số-trong-pascal
@@ -466,6 +467,59 @@ Type
                    Title: string;
                End;
 ```
+
+Tổng kết chương
+---------------
+
+:tada: :tada: :tada:
+
+Bạn đã hoàn thành chương 2. Chương 2 có những ý chính sau:
+
+1. Kiểu dữ liệu là các loại dữ liệu được xử lý trong máy tính. Có nhiều kiểu
+dữ liệu như kiểu số nguyên, kiểu chuỗi ký tự, kiểu số thực,...
+2. **Biến số** là đại lượng được đặt tên, mang giá trị thuộc kiểu dữ liệu đã
+định ra. Ví dụ, biến số "x" có thể mang giá trị là 5, và giá trị này thuộc kiểu
+dữ liệu số nguyên.
+3. Khái niệm về **hằng số** cũng giống như biến số, chỉ khác ở chỗ, giá trị của
+hằng số là một giá trị không đổi. Trong Pascal, khi bạn khai báo một hằng số,
+bạn phải gán luôn cho nó một giá trị, và hằng số đó sẽ mang giá trị đó trong
+suốt chương trình.
+4. Pascal hỗ trợ nhiều kiểu dữ liệu để khai báo biến số và hằng số. Một số kiểu
+dữ liệu quan trọng trong Pascal bao gồm:
+    - Kiểu số nguyên (`Integer`)
+    - Kiểu số thực (`Real`)
+    - Kiểu chuỗi ký tự (`String`)
+    - Kiểu mảng (`Array`)
+    - Kiểu boolean (`Boolean`)
+5. Cú pháp khai báo biến số trong Pascal:
+```
+Var
+    TÊN_BIẾN_SỐ_1 : KIỂU_DỮ_LIỆU;
+    TÊN_BIẾN_SỐ_2, TÊN_BIẾN_SỐ_3 : KIỂU_DỮ_LIỆU_CHO_BIẾN_SỐ_2_VÀ_BIẾN_SỐ_3;
+    TÊN_BIẾN_SỐ : KIỂU_DỮ_LIỆU = GIÁ_TRỊ;
+```
+6. Cú pháp khai báo hằng số trong Pascal:
+```
+Const
+    TÊN_HẰNG_SỐ: KIỂU_DỮ_LIỆU = GIÁ_TRỊ;
+    TÊN_HẰNG_SỐ = GIÁ_TRỊ;
+```
+7. Phần khai báo biến số và hằng số cần phải được đặt trước chương trình.
+8. Cú pháp gán giá trị cho biến số:
+```
+    TÊN_BIẾN_SỐ := GIÁ_TRỊ;
+```
+9. Cần phải lưu ý tránh các lỗi sau khi làm việc với biến số và hằng số:
+    - Lỗi sử dụng biến số và hằng số chưa được khai báo
+    - Lỗi gán giá trị thuộc kiểu dữ liệu không trùng với kiểu dữ liệu đã định ra
+    cho biến số/hằng số đó
+    - Lỗi gán giá trị không trong giới hạn của kiểu dữ liệu đã đặt ra cho biến
+    số/hằng số (sẽ gặp phải hiện tượng ngoài khoảng)
+    - Lỗi thay đổi giá trị của hằng số
+10. Từ khóa `Type` bắt đầu phần khai báo kiểu dữ liệu riêng của lập trình viên.
+Những kiểu dữ liệu riêng được tạo từ những kiểu dữ liệu có sẵn của Pascal hay từ
+những kiểu dữ liệu riêng khác.
+
 - - -
 [<< Chương 1](chapter01.md)  
 [Chương 3 >>](chapter03.md)
