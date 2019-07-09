@@ -9,11 +9,11 @@ Những người có tên được in đậm là thành viên của nhóm 42tm.
 | STT |          Tên         |   Địa chỉ thư điện tử   |  Tài khoản GitHub   |   Website cá nhân   |
 |:---:|         :---:        |          :---:          |        :---:        |        :---:        |
 |  1  | **Nguyễn Tuấn Dũng** |  ntddebugger@gmail.com  |[dungwinux][1 github]|[Liên kết][1 website]|
-|  2  |**Nguyễn Hoàng Dương**|you_create@protonmail.com|[NOVAglow][2 github] |                     |
+|  2  |**Nguyễn Hoàng Dương**|you_create@protonmail.com|[you-create][2 github] |                     |
 
 [1 github]: http://github.com/dungwinux
 [1 website]: http://dungwinux.github.io
-[2 github]: http://github.com/NOVAglow
+[2 github]: http://github.com/you-create
 
 Đóng góp theo các phần của cuốn sách
 ------------------------------------
